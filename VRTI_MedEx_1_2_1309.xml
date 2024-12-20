@@ -1,0 +1,1419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <!-- Details about the document -->
+        <fileDesc>
+            <!-- Title details. We put responsibility statements in the edition -->
+            <titleStmt>
+                <title>Translation: Receipt roll, Michaelmas 1309 to Michaelmas 1310: Alexander de Bicknor, treasurer of Ireland</title>
+            </titleStmt>
+            <!-- Edition details -->
+            <editionStmt>
+                <!-- For the description (database), use the edition? -->
+                <edition>TEI/XML English translation of receipt roll, Michaelmas 1309 to Michaelmas 1310: William de Estdene, and Richard de Bereford, treasurers of Ireland.</edition>
+                <!-- Responsibility for the edition. -->
+                <respStmt xml:id="peter-crooks">
+                    <name>Peter Crooks</name>
+                    <resp>editor</resp>
+                </respStmt>
+                <respStmt xml:id="paul-dryburgh">
+                    <name>Paul Dryburgh</name>
+                    <resp>editor</resp>
+                </respStmt>
+                <respStmt xml:id="lynn-kilgallon">
+                    <name>Lynn Kilgallon</name>
+                    <resp>editor</resp>
+                </respStmt>
+                <respStmt xml:id="elizabeth-biggs">
+                    <name>Elizabeth Biggs</name>
+                    <resp>editor</resp>
+                </respStmt>
+            </editionStmt>
+            <!-- Details about the extent of the original document. -->
+            <extent>13 parchment membranes</extent>
+            <!-- Publisher and licence -->
+            <publicationStmt>
+                <publisher>Trinity College Dublin, The University of Dublin</publisher>
+                <pubPlace>Dublin</pubPlace>
+                <availability>
+                    <!-- License -->
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
+                </availability>
+                <!-- Contact details -->
+                <address>
+                    <name>Beyond 2022: Ireland's Virtual Record Treasury</name>
+                    <addrLine>Trinty College Dublin, the University of Dublin</addrLine>
+                    <addrLine>College Green</addrLine>
+                    <addrLine>Dublin 2</addrLine>
+                    <addrLine>D02 PN40</addrLine>
+                    <country>Ireland</country>
+                </address>
+            </publicationStmt>
+            <!-- Part of a series? -->
+            <seriesStmt>
+                <title>Accounts of the Irish Exchequer (The National Archives, E 101).</title>
+                <idno>E 101</idno>
+            </seriesStmt>
+            <!-- Details about the manuscript. -->
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>London</settlement>
+                        <repository>The National Archives</repository>
+                        <idno type="image-sequence">TNA E 101/235/22</idno>
+                        <idno type="b2022-idno">VRTI MedEx 1/2/1309</idno>
+                        <idno type="URI">https://discovery.nationalarchives.gov.uk/details/r/C4513887</idno>
+                        <msName>Receipt Roll: Alexander de Bicknor, treasurer of Ireland</msName>
+                    </msIdentifier>
+                    <msContents>
+                        <textLang mainLang="lat">Latin</textLang>
+                    </msContents>
+                    <physDesc>
+                        <p>A parchment roll of thirteen membranes.</p>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <!-- Details about the encoding -->
+        <encodingDesc>
+            <!-- Project description-->
+            <projectDesc>
+                <p>Created as part of the Medieval Gold Seam of the 'Beyond 2022: Ireland's Virtual
+                    Record Treasury' Research Project, Phase 2 (2019–22)</p>
+            </projectDesc>
+            <!-- Editorial declaration -->
+            <editorialDecl>
+                <p>The guiding principle is to make this edition of the accounts of the medieval Irish
+                    Exchequer (and other medieval records populating Beyond 2022 Virtual Record Treasury)
+                    as intelligible as possible to as wide an audience as possible. To that end, due to
+                    their generally brief, formulaic nature the records are more or less directly
+                    translated into modern English without losing the literal, technical sense of the
+                    original language, which is almost exclusively Latin.</p>
+            </editorialDecl>
+        </encodingDesc>
+        <!-- Non bibliographic aspects of the text -->
+        <profileDesc>
+            <!-- Languages used in the encoding. -->
+            <langUsage>
+                <language ident="eng">English</language>
+            </langUsage>
+            <!-- Details about the creation of the text. -->
+            <creation>
+                <date from="1309-09-30" to="1310-09-29">Michaelmas 1309 to Michaelmas 1310</date>
+            </creation>
+            <!-- Beyond 2022 knowledge graph. For people, places and organizations/offices -->
+            <textClass>
+                <keywords scheme="http://ont.beyond2022.ie/ontology#">
+                    <term ref="https://kb.beyond2022.ie/person/615_-_0000_g>">Edward I</term>
+                </keywords>
+            </textClass>
+            <!-- searchFast: https://fast.oclc.org/searchfast/ -->
+            <textClass>
+                <keywords scheme="https://fast.oclc.org/">
+                    <term ref="http://id.worldcat.org/fast/1205427.rdf.xml">Ireland</term>
+                    <term ref="http://id.worldcat.org/fast/1020301.rdf.xml">Middle Ages</term>
+                    <term ref="http://id.worldcat.org/fast/924349.rdf.xml">Finance</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <!-- Changes made to the document -->
+        <revisionDesc>
+            <listChange>
+                <change status="draft" when="2024-04-18" resp="#elizabeth-biggs">Initial draft</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text><body>
+        <pb type="membrane" n="1 face" facs="tna_e_101_235_22_m1_recto.tif"/>
+<div type="roll"><head type="roll">Bicknor, treasurer</head>
+<gap reason="blank"/><note type="editorial">This is the only text on the pointed flap of the first membrane.</note>
+<div type="term"><head type="term">Roll of the great receipt of Alexander de Bicknor, treasurer of Ireland in <date from="1309-10-09" to="1309-11-28">Michaelmas term 3 Edward II</date> and John de Hothum took the place <note type="text"><foreign xml:lang="lat">tenentis locum</foreign></note> of the same treasurer, who was in England.</head>
+<div type="month"><div type="week">
+<div type="day"><head type="day"><date when="1309-09-30">Tuesday, the morrow of Michaelmas 30 September <supplied>1309</supplied></date></head>
+    <div type="place"><opener>Drogheda on the side of Uriel</opener>
+<ab>From the farm of Drogheda, by Geoffrey John: <measure type="currency">£20</measure></ab>
+<ab>From the mayor and bailiffs of Drogheda for the debts of various people, by the same Geoffrey: <measure type="currency">8s 4d</measure></ab></div>
+    <div type="place"><opener>Uriel</opener>
+<ab>From Walter Dounedale, sheriff, for the debts of various people: <measure type="currency">£10</measure></ab>
+<ab>From the same sheriff for the profit of the county: <measure type="currency">40s</measure></ab></div>
+<closer>Sum: <measure type="currency">£32 8s 4d</measure> <add><handShift/>proved</add></closer></div>
+<div type="day"><head type="day"><date when="1309-10-01">Wednesday <supplied>1 October 1309</supplied></date></head>
+    <div type="place"><opener>Drogheda on the side of Meath</opener>
+<ab>From the farm of Drogheda, by Peter de Barton: <measure type="currency">20 marks</measure></ab></div>
+<div type="place"><opener>Galway, great new custom</opener>
+<ab>From the issues of the great new custom, by Cruche Huberti: <measure type="currency">£12</measure></ab></div>
+<closer>Sum: <measure type="currency">£25 6s 8d</measure> <add><handShift/>proved</add></closer></div>
+<div type="day"><head type="day"><date when="1309-10-02">Thursday <supplied>2 October 1309</supplied></date></head>
+    <div type="place"><opener>Tipperary</opener>
+<ab>From Walter le Bret, sheriff, for the debts of various people, by David Roche: <measure type="currency">£37</measure></ab></div>
+<closer>Sum: <measure type="currency">£37</measure> <add><handShift/>as appears <note type="text"><foreign xml:lang="lat">patet</foreign></note></add></closer></div>
+<div type="day"><head type="day"><date when="1309-10-03">Friday <supplied>3 October 1309</supplied></date></head>
+    <div type="place"><opener>Tipperary</opener>
+<ab>From Miles Prat, Elias Prat and other men of the community of the town of Duleek <note type="text">Doulek</note> for a fine for trespass: <measure type="currency">40s</measure></ab></div>   
+    <div type="place"><opener>Meath</opener>
+<ab>From Robert Taaf, sheriff, for arrears of his account: <measure type="currency">20s</measure></ab></div>
+<closer>Sum: <measure type="currency">60s</measure> <add><handShift/>proved</add></closer></div>
+<div type="day"><head type="day"><date when="1309-10-04">Saturday <supplied>4 October 1309</supplied></date></head>
+<ab><supplied reason="blank">Nothing</supplied></ab></div>
+<closer>Sum received in five days: <measure type="currency">£97 15s 0d</measure> <add><handShift/>proved</add></closer></div>
+<div type="week">
+<div type="day"><head type="day"><date when="1309-10-06">Monday 6 October <supplied>1309</supplied></date></head>
+    <div type="place"><opener>Meath</opener>
+<ab>From Luke de Belinges, sheriff, for arrears of his account: <measure type="currency">40s</measure></ab></div>
+    <div type="place"><opener>Dublin, city</opener>
+<ab>From the mayor and bailiffs of the city of Dublin for their various debts: <measure type="currency">10 marks</measure></ab></div>
+<closer>Sum: <measure type="currency">£8 13s 4d</measure> <add><handShift/>proved</add></closer></div>
+<div type="day"><head type="day"><date when="1309-10-07">Tuesday <supplied>7 October 1309</supplied></date></head>
+    <div type="place"><opener>Youghal, great new custom</opener>
+<ab>From Martin Whiperel and John Pipe, collectors of the great new custom, for arrears of their account: <measure type="currency">£4 11s 7d</measure></ab>
+<ab>From Andrew Gerard for arrears of his account, by Martin Whiperel and John Pipe: <measure type="currency">8s 5d</measure></ab></div>
+    <div type="place"><opener>Cork</opener>
+<ab>From John Pipe for the forfeit chattels of Robert Goldsmith <note type="text"><foreign xml:lang="lat">aurifabri</foreign></note>: <measure type="currency">10s 11d</measure></ab></div>
+    <div type="place"><opener>Dublin</opener>
+<div type="place"><ab>From David, bishop of Killaloe <note type="text">Kyldalo</note> for a fine for trespass: <measure type="currency">£4</measure></ab></div>
+        <div type="place"><opener>Manor</opener>
+<ab>From the farm of Saggart <note type="text">Tassagard</note>, by Henry le Bond: <measure type="currency">60s</measure></ab></div>
+        <div type="place"><ab>From David, bishop of Killaloe <note type="text">Kyldalo</note> for a fine for trespass: <measure type="currency">1/2 mark</measure></ab></div></div>
+<closer>Sum: <measure type="currency">£12 17s 7d</measure> <add><handShift/>proved</add></closer></div>
+<div type="day"><head type="day"><date when="1309-10-08">Wednesday <supplied>8 October 1309</supplied></date></head>
+    <div type="place"><opener>Youghal, great new custom</opener>
+<ab>From Andrew Gerard for arrears of his account, by Martin Whiperel and John Pipe: <measure type="currency">72s 8 1/4d</measure></ab></div>
+<closer>Sum: <measure type="currency">72s 8 1/4d</measure> <add><handShift/>as appears <note type="text"><foreign xml:lang="lat">patet</foreign></note></add></closer></div>
+<div type="day"><head type="day"><date when="1309-10-09">Thursday <supplied>9 October 1309</supplied></date></head>
+    <div type="place"><opener>Dublin, manors</opener>
+<ab>From the arrears of Waspailstown <note type="text"><foreign xml:lang="lat">ville de Waspayl</foreign></note>, by Walter Fox: <measure type="currency">10s</measure></ab>
+  <ab>From the farm of Newcastle Lyons <note type="text"><foreign xml:lang="lat">novi castri de Lyouns</foreign></note>, by the tenants of Balycolman: <measure type="currency">18s 4d</measure></ab></div>
+    <div type="place"><opener>Meath</opener>
+<ab>From Thomas, bishop of Meath, by Robert Taaf, sheriff, for arrears of his account, by the abbot of St Mary's near Dublin: <measure type="currency">100s</measure></ab></div>
+<closer>Sum: <measure type="currency">£6 8s 4d</measure> <add><handShift/>proved</add></closer></div>
+<div type="day"><head type="day"><date when="1309-10-10">Friday <supplied>10 October 1309</supplied></date></head>
+<ab>Nothing</ab></div>
+<div type="day"><head type="day"><date when="1309-10-11">Saturday <supplied>11 October 1309</supplied></date></head>
+<ab>Nothing</ab></div>
+<closer>Sum of weekly receipts: <measure type="currency">£31 11s 11 1/4d</measure> <add><handShift/>proved</add></closer></div>
+    <div type="week"><div type="day"><head type="day"><date when="1309-10-13">Monday 13 October <supplied>1309</supplied></date></head>
+<div type="place"><opener>Tipperary</opener>
+<ab>From the prior of St John outside the New Gate, Dublin, for Richard de Valle for arrears of his account: <measure type="currency">£4</measure></ab></div>
+    <div type="place"><opener>Kerry, great new custom</opener>
+<ab>From the issues of the great new custom, by Meiler son of Robert: <measure type="currency">£9 18s 4d</measure></ab></div>
+        <div type="place"><opener>Kildare, manor</opener>
+<ab>From the rent of Okethy, by Roger le Waleys and Roger son of Adam: <measure type="currency">£7</measure></ab></div>
+<closer>Sum: <measure type="currency">£20 18s 4d</measure> <add><handShift/>proved</add></closer></div>
+<div type="day"><head type="day"><date when="1309-10-14">Tuesday <supplied>14 October 1309</supplied></date></head>
+    <div type="place"><opener>Tipperary</opener>
+<ab>From John Beg Odusthir for a fine for trespass: <measure type="currency">1/2 mark</measure></ab>
+<ab>From Geoffrey son of Thomas son of Meiler, and Adam his son for a fine for themselves and others: <measure type="currency">26s 8d</measure></ab></div>
+    <div type="place"><opener>Meath</opener>
+<ab>From Thomas de Maundeville for the issues of the lands of Ardmassth: <measure type="currency">£4 13s 4d</measure></ab></div>
+    <div type="place"><opener>Kildare, manor</opener>
+<ab>From the rent of Ughterard, by Walter Jordan <note type="text">Jurdan</note>: <measure type="currency">£6</measure></ab></div>
+<closer>Sum: <measure type="currency">£12 6s 8d</measure> <add><handShift/>proved</add></closer></div>
+<div type="day"><head type="day"><date when="1309-10-15">Wednesday <supplied>15 October 1309</supplied></date></head>
+    <div type="place"><opener>Dublin</opener>
+<ab>From Ralph Donok, Philip Millward <note type="text">le Milleward</note> of Molahide <note type="text">Molaghyde</note> and their associates for a fine for trespass: <measure type="currency">40s</measure></ab></div>
+    <pb type="membrane" n="2 face" facs="tna_e_101_235_22_m2_recto.tif"/>
+    <div type="place"><opener>Tipperary</opener>
+<ab>From John son of William Crispin <note type="text">Crispyne</note> for a fine for trespass: <measure type="currency">20s</measure></ab>
+<ab>From Nicholas de Inkberrow <note type="text">Inteberge</note>, sheriff, for arrears of his account: <measure type="currency">26s 8d</measure></ab></div>
+    <div type="place"><opener>Meath</opener>
+<ab>From Luke de Belinges, sheriff, for arrears of his account: <measure type="currency">40s</measure></ab></div>
+    <div type="place"><opener>Roscommon</opener>
+<ab>From William son of Richard de Calle for a fine for <add place="above the line">his</add> marriage, by Peter Ballagh of Bermengeham: <measure type="currency">£6</measure></ab></div>
+    <div type="place"><opener>Meath</opener>
+<ab>From Richard Telyng, sheriff, for the debts of various people: <measure type="currency">£12</measure></ab></div>
+    <div type="place"><opener>Tipperary</opener>
+<ab>From Simon le Deyere for a fine for trespass: <measure type="currency">1 mark</measure></ab></div>
+    <div type="place"><opener>Meath</opener>
+<ab>From Richard Telyng, sheriff, for the profit of the county: <measure type="currency">10s</measure></ab></div>
+    <div type="place"><opener>Tipperary</opener>
+<ab>From Gilbert Hayward <note type="text">le Hayward</note> for a fine for trespass: <measure type="currency">1 mark</measure></ab></div>
+    <div type="place"><opener>Limerick</opener>
+<ab>From John son of Pontius <note type="text"><foreign xml:lang="lat">Pontii</foreign></note> for a fine for trespass: <measure type="currency">20s</measure></ab></div>
+    <div type="place"><opener>Uriel</opener>
+<ab>From Stephen Roche for a fine for trespass: <measure type="currency">£10</measure></ab></div>
+    <div type="place"><opener>Dublin</opener>
+<ab>From John Locard <note type="text">Lokard</note> for release from prison, by John de la Hyde: <measure type="currency">1 mark</measure></ab></div>
+<closer>Sum: <measure type="currency">£37 16s 8d</measure> <add><handShift/>proved</add></closer></div>
+<div type="day"><head type="day"><date when="1309-10-16">Thursday <supplied>16 October 1309</supplied></date></head>
+    <div type="place"><opener>Dublin</opener>
+<ab>From John son of Ralph de Duno for licence to make concord: <measure type="currency">20s</measure></ab>
+<ab>From the same John to have a writ: <measure type="currency">1/2 mark</measure></ab>
+<ab>From Robert, bishop of Ferns for a fine for trespass: <measure type="currency">100s</measure></ab></div>
+    <div type="place"><opener>Limerick</opener>
+<ab>From Hugh son of Ralph and his associates for a fine for trespass: <measure type="currency">40s</measure></ab></div>
+    <div type="place"><opener>Tipperary</opener>
+<ab>From Robert Maunsel for his various debts: <measure type="currency">1/2 mark</measure></ab>
+<ab>From Walter Maunsel, chief serjeant, for contempt <supplied>of court</supplied> and because he did not levy the king's debts in the escheatry as he was ordered, by the escheator: <measure type="currency">40s</measure></ab>
+<ab>From the same Walter for licence to make concord: <measure type="currency">1/2 mark</measure></ab>
+<ab>From Thomas Gyllot and Andrew Serjeant <note type="text">le Serjaunt</note> because they did not have Robert Maunsel whom they pledged: <measure type="currency">1/2 mark</measure></ab>
+<ab>From Henry Haket, sheriff, and Walter Maunsel, chief serjeant for the improper return of the king's writs, by the same Walter:  <measure type="currency">1/2 mark</measure></ab></div>
+    <div type="place"><opener>Dublin</opener>
+<ab>From John de Lyncobua of Nottingham <note type="text">Notyngham</note> and Hugh de Nottingham <note type="text">Notyngham</note> for a fine for trespass, by the pledge of Adam de Hollywood <note type="text"><foreign xml:lang="lat">sancto bosco</foreign></note>: <measure type="currency">20s</measure></ab></div>
+    <div type="place"><opener>Kilkenny</opener>
+<ab>From William de Caunton <note type="text">Caunteton</note>, seneschal, for the debts of various people: <measure type="currency">£6 13s 4d</measure></ab></div>
+<closer>Sum: <measure type="currency">£19 6s 8d</measure> <add><handShift/>proved</add></closer></div>
+<div type="day"><head type="day"><date when="1309-10-17">Friday <supplied>17 October 1309</supplied></date></head>
+    <div type="place"><opener>Cork, city</opener>
+<ab>From the farm of the city of Cork, by William del Youghal: <measure type="currency">10 marks</measure></ab></div>
+<closer>Sum: <measure type="currency">£6 13s 4d</measure> <add><handShift/>proved</add></closer></div>
+<div type="day"><head type="day"><date when="1309-10-18">Saturday, St Luke the Evangelist <supplied>18 October 1309</supplied></date></head>
+<ab>Nothing</ab></div>
+<closer>Sum of weekly receipts: <measure type="currency">£97 0s 20d</measure> <add><handShift/>proved</add></closer></div>
+<div type="week"><div type="day"><head type="day"><date when="1309-10-20">Monday 20 October <supplied>1309</supplied></date></head>    <div type="place"><opener>Dublin, manor</opener>
+<ab>From the rent of Bray <note type="text">Bree</note>, by William de Coventry <note type="text">Couyntre</note><measure type="currency">60s</measure></ab></div>
+    <div type="place"><opener>Wexford</opener>
+<ab>From Walter Wogan, seneschal, for the arrears of his account: <measure type="currency">£19 6s 8d</measure></ab>
+<ab>From the same seneschal for the debts of various people: <measure type="currency">13s 4d</measure></ab></div>
+    <div type="place"><opener>Dublin, manors</opener>
+<ab>From the farm of Saggart <note type="text">Tassagard</note>, by Henry le Bond: <measure type="currency">£7</measure></ab>
+<ab>From the arrears of the rent of Crumlin <note type="text">Cromelyn</note>, by Nicholas Sturry: <measure type="currency">30s</measure></ab>
+<ab>From the arrears of the farm of Saggart <note type="text">Tassagard</note>, by Peter Sely: <measure type="currency">40s</measure></ab>
+<ab>From the same arrears, by Richard Beg: <measure type="currency">20s</measure></ab></div>
+<closer>Sum: <measure type="currency">£34 10s 0d</measure> <add><handShift/>proved</add></closer></div>
+<div type="day"><head type="day"><date when="1309-10-21">Tuesday <supplied>21 October 1309</supplied></date></head>
+    <div type="place"><opener>Kildre</opener>
+<ab>From David le Maziner, sheriff, for the debts of various people: <measure type="currency">£10</measure></ab></div>
+    <div type="place"><opener>Tipperary</opener>
+<ab>From Adam de Mareys for a fine for trespass: <measure type="currency">26s 8d</measure></ab></div>
+    <div type="place"><opener>Dublin, manor</opener>
+<ab>From the farm of Newcastle Lyons <note type="text"><foreign xml:lang="lat">novi castri de Lyouns</foreign></note>, by John Limput: <measure type="currency">£7</measure></ab></div>
+    <div type="place"><opener>Limerick</opener>
+<ab>From William de Caumvylle for a fine because he killed without the king's licence <note type="text"><foreign xml:lang="lat">s<supplied>i</supplied>n<supplied>e</supplied> licenciam domini Regis necavit</foreign></note> in Fedamore <note type="text">Fedmer'</note> and Cahir <note type="text">Catherdonesk</note>: <measure type="currency">10 marks</measure></ab></div>
+    <div type="place"><opener>Dublin, city</opener>
+<ab>From Hugh MarshalL <note type="text">le Maresschall</note> for the escape of John son of John de Burgh, by John le Decer: <measure type="currency">40s</measure></ab></div>
+    <div type="place"><opener>Limerick</opener>
+<ab>From Henry de Chapel <note type="text"><foreign xml:lang="lat">Capella</foreign></note> for a fine for trespass: <measure type="currency">5 marks</measure></ab></div>
+    <div type="place"><opener>Carlow</opener>
+<ab>From John de Valle for a fine for trespass, by Edward le Poer: <measure type="currency">10 marks</measure></ab></div>
+    <div type="place"><opener>Tipperary</opener>
+<ab>From Maurice, archbishop of Cashel, Philip Obrodyr and others for a fine for many trespasses: <measure type="currency">100s</measure></ab>
+<ab>From Gilbert Burdonn for a fine for trespass: <measure type="currency">50s</measure></ab>
+<ab>From Peter son of James de Bermingham <del>and Simon his son</del> <note type="editorial">These words are dotted for expungement</note> for a fine for the lands Peter son of Meiler de Bermingham held of the king, by Walter le Bret: <measure type="currency">£4</measure></ab>
+<ab>From the same Peter for the same: <measure type="currency">20s</measure></ab>
+<ab>From Master Robert de Bermingham and Simon his son for a fine to enter the king's fealty <note type="text"><foreign xml:lang="lat">pro feudo domini Regis ingredi</foreign></note>: <measure type="currency">43s</measure></ab></div>
+    <div type="place"><opener>Dublin, manor</opener>
+<ab>From the rent of Bray <note type="text">Bree</note>, by William de Coventry <note type="text">Couyntre</note>: <measure type="currency">40s</measure></ab></div>
+    <div type="place"><opener>Wexford</opener>
+<ab>From William de Prendergast for a fine for trespass, by Robert de Prendergast: <measure type="currency">16s 8d</measure></ab></div>
+    <div type="place"><opener>Tipperary</opener>
+<ab>From Master Robert de Bermingham and Simon his son for a fine to enter the king's fealty: <measure type="currency">4d</measure></ab></div>
+<closer>Sum: <measure type="currency">£54 10s 0d</measure> <add><handShift/>proved</add></closer></div>
+<div type="day"><head type="day"><date when="1309-10-22">Wednesday <supplied>22 October 1309</supplied></date></head>
+    <div type="place"><opener>Kildare, manor</opener>
+<ab>From the rent of Leixlip <note type="text"><foreign xml:lang="lat">saltus salmonis</foreign></note>, by Peter Knulle and Adam Clerk <note type="text"><foreign xml:lang="lat">clericum</foreign></note>: <measure type="currency">£6</measure></ab></div>
+    <div type="place"><opener>Waterford, manor</opener>
+        <ab>From the rent of Admethan, by Jordan de Exeter <note type="text">Exon</note>: <measure type="currency">£10</measure></ab></div>
+<div type="place"><opener>Kildare, manors</opener>
+<ab>From the rent of Ughterard, by Walter Jordan: <measure type="currency">£7</measure></ab>
+<ab>From the rent of Okethy, by Roger son of Adam and Roger le Waleys: <measure type="currency">70s</measure></ab></div>
+<closer>Sum: <measure type="currency">£26 16s 8d</measure> <add><handShift/>proved</add></closer></div>
+<div type="day"><head type="day"><date when="1309-10-23">Thursday <supplied>23 October 1309</supplied></date></head>
+<ab>Nothing</ab></div>
+<div type="day"><head type="day"><date when="1309-10-24">Friday <supplied>24 October 1309</supplied></date></head>
+    <div type="place"><opener>Dublin, city</opener>
+<ab>From the farm of the city of Dublin, by William de Compton and John le Specer: <measure type="currency"></measure></ab></div>
+<closer></closer></div>
+<div type="day"><head type="day"><date when="1309-10-25">Saturday <supplied>25 October 1309</supplied></date></head>
+    <div type="place"><opener>Dublin, manor</opener>
+<ab>From the farm of Chapelizod <note type="text"><foreign xml:lang="lat">capelle Isolde</foreign></note>, by the prior of Kilmainham <note type="text">Kilmaynan</note>: <measure type="currency">£23 6s 8d</measure></ab></div>
+<closer>Sum: <measure type="currency">£23 6s 8d</measure> <add><handShift/>as appears</add></closer></div>
+<closer>Sum of weekly receipts: <measure type="currency">£165 16s 8d</measure> <add><handShift/>proved</add></closer></div>
+<closer><add place="This sum has been added on the left side of the membrane."><handShift/>Sum of five days and three weeks: <measure type="currency">£392 5s 3 1/4d</measure></add></closer></div>
+<div type="month"><div type="week"><div type="day"><head type="day"><date when="1309-10-27"><handShift/>Monday 27 October <supplied>1309</supplied></date></head>
+    <div type="place"><opener>Dublin</opener>
+<ab>From Richard, son and heir of Hugh Tyrell, for his relief, by the manor of Castleknock <note type="text"><foreign xml:lang="lat">castro knok</foreign></note>: <measure type="currency">20s</measure></ab>
+        <pb type="membrane" n="3 face" facs="tna_e_101_235_22_m3_recto.tif"/>
+<ab>From Hugh Tyrell of Castleknock <note type="text"><foreign xml:lang="lat">castro knok</foreign></note> for arrears of the service for the tenements of Castleknock <note type="text"><foreign xml:lang="lat">castro knok</foreign></note>: <measure type="currency">20s</measure></ab>
+<ab>From John de la Hyde for the default of Th<add>e</add>we of Balymadan: <measure type="currency"></measure></ab></div>
+<closer>Sum: <measure type="currency">46s 8d</measure> <add><handShift/>proved</add></closer></div>
+<div type="day"><head type="day"><date when="1309-10-28">Tuesday, SS Simon and Jude <supplied>28 October 1309</supplied></date></head>
+<ab>Nothing</ab></div>
+<div type="day"><head type="day"><date when="1309-10-29">Wednesday <supplied>29 October 1309</supplied></date></head>
+    <div type="place"><opener>Limerick</opener>
+        <div type="place"><opener>City</opener>
+<ab>From the farm of the city of Limerick, by Robert Young <note type="text"><foreign xml:lang="french">le Joefne</foreign></note>: <measure type="currency">£31 13s 4d</measure></ab>
+<ab>From the mayor and bailiffs of the aforesaid city for arrears of their account, by the same Robert: <measure type="currency">100s</measure></ab></div>
+    <div type="place">
+<ab>From William son of Thomas de Dondovenold for a fine for trespass: <measure type="currency">60s</measure></ab></div></div>
+    <div type="place"><opener>Dublin, manors</opener>
+<ab>From the rent of Newcastle Lyons <note type="text"><foreign xml:lang="lat">novi castri de Lyouns</foreign></note>, by John Limput: <measure type="currency">60s</measure></ab>
+<ab>From the same rent, by Peter son of Thomas: <measure type="currency">£12</measure></ab>
+<ab>From the same rent, by the tenants of Balycolman: <measure type="currency">£4</measure></ab></div>
+    <div type="place"><opener>Limerick</opener>
+<ab>From Thomas son of Rhys <note type="text">Rysi</note> for a fine for trespass: <measure type="currency">1 mark</measure></ab></div>
+<closer>Sum: <measure type="currency">£59 6s 8d</measure> <add><handShift/>proved</add></closer></div>
+<div type="day"><head type="day"><date when="1309-10-30">Thursday <supplied>30 October 1309</supplied></date></head>
+    <div type="place"><opener>Dublin</opener>
+<ab>From William Haket for a fine for trespass against Geoffrey de Morton and John Halfheved: <measure type="currency">20s</measure></ab>
+<ab>From David, bishop of Killaloe <note type="text">Kyldalo</note> for a fine for trespass: <measure type="currency">40s</measure></ab></div>
+<closer>Sum: <measure type="currency">60s</measure> <add><handShift/>proved</add></closer></div>
+<div type="day"><head type="day"><date when="1309-10-31">Friday <supplied>31 October 1309</supplied></date></head>
+    <div type="place"><opener>Drogheda on the side of Meath</opener>
+<ab>From the seneschals and bailiffs of Drogheda for arrears of their account, by John de Bruges: <measure type="currency">60s</measure></ab>
+<ab>From Thomas de Dundalk to have the king's charter for a certain plea of land in Drogheda <note type="text"><foreign xml:lang="lat">pro carta domini Regis habenda de quadam plac<supplied>itam</supplied> terre in Drogheda</foreign></note>: <measure type="currency">10s</measure></ab></div>
+    <div type="place"><opener>Kildare</opener>
+<ab>From John de Boneville, seneschal for the debts of various people, by John de Sutton: <measure type="currency">£10</measure></ab></div>
+<closer>Sum: <measure type="currency">£13 10s 0d</measure> <add><handShift/>proved</add></closer></div>
+<div type="day"><head type="day"><date when="1309-11-01">Saturday, All Saints <supplied>1 November 1309</supplied></date></head>
+<ab>Nothing</ab></div>
+<closer>Sum of weekly receipts: <measure type="currency">£78 3s 4d</measure> <add><handShift/>proved</add></closer></div>
+<div type="week"><div type="day"><head type="day"><date when="1309-11-03">Monday 3 November <supplied>1309</supplied></date></head><div type="place"><opener><corr>Waterford</corr>, manor</opener>
+<ab>From the rent of the Decies for Reginald Russell, by John de Weyland <note type="text">Weylaunde</note>: <measure type="currency">£8 13s 4d</measure></ab></div>
+    <div type="place"><opener>Meath</opener>
+<ab>From Luke de Belinges, sheriff, for arrears of his account, by Ryrith son of John: <measure type="currency">£4</measure></ab></div>
+    <div type="place"><opener>Dublin</opener>
+<ab>From David, bishop of Killaloe <note type="text">Kyldalo</note> for a fine for trespass: <measure type="currency">1 mark</measure></ab></div>
+    <div type="place"><opener>Tipperary</opener>
+<ab>From Oliver Haket for a fine for trespass: <measure type="currency">1/2 mark</measure></ab>
+<ab>From Robert Haket for a fine for many trespasses: <measure type="currency">10s</measure></ab>
+<ab>From the same Robert for the same: <measure type="currency">50s</measure></ab></div>
+<closer>Sum: <measure type="currency">£16 <add place="Above the line">13</add><del>9</del>s 4d</measure> <add><handShift/>proved</add></closer></div>
+<div type="day"><head type="day"><date when="1309-11-04">Tuesday <supplied>4 November 1309</supplied></date></head>
+    <div type="place"><opener>Dublin</opener>
+<ab>From William de Senekyl for release of visne: <measure type="currency">40d</measure></ab></div>
+    <div type="place"><opener>Tipperary</opener>
+<ab>From Miles son of Geoffrey Lewis <note type="text">Lowys</note> for a fine for trespass: <measure type="currency">20s</measure></ab></div>
+    <div type="place"><opener>Dublin</opener>
+<ab>From the prior of St John outside the new gate, Dublin because he did not come <supplied>when</supplied> summoned: <measure type="currency">1/2 mark</measure></ab></div>
+    <div type="place"><opener>Kildare</opener>
+<ab>From Richard son of Reginald for a fine for trespass, by Geoffrey his son: <measure type="currency">50s</measure></ab></div>
+    <div type="place"><opener>Kilkenny</opener>
+<ab>From Richard de Auton for his various debts, by Hugh de Auton: <measure type="currency">5 marks</measure></ab></div>
+<closer>Sum: <measure type="currency">£7 6s 8d</measure> <add><handShift/>proved</add></closer></div>
+<div type="day"><head type="day">Bicknor <date when="1309-11-05">Wednesday <supplied>5 November 1309</supplied></date></head>
+<ab>On this day Alexander de Bicknor <note type="text">Bykenore</note>, the treasurer, first came to the exchequer after his return from England</ab>
+    <div type="place"><opener>Dublin</opener>
+<ab>From Richard Tanner <note type="text">le Tanner</note> of Wells for himself and his pledges because he did not come <supplied>when</supplied> attached: <measure type="currency">5s</measure></ab></div>
+    <div type="place"><opener>Kildare, manor</opener>
+<ab>From the rent of Leixlip <note type="text"><foreign xml:lang="lat">saltus salmonis</foreign></note>, by Peter de Knulle and Adam Clerk <note type="text">le Clerk</note>: <measure type="currency">£6</measure></ab></div>
+    <div type="place"><opener>Tipperary</opener>
+<ab>From James de Keting for a fine for trespass: <measure type="currency">100s</measure></ab></div>
+<closer>Sum: <measure type="currency">£11 5s 0d</measure> <add><handShift/>proved</add></closer></div>
+<div type="day"><head type="day"><date when="1309-11-06">Thursday <supplied>6 November 1309</supplied></date></head>
+<ab>Nothing</ab></div>
+<div type="day"><head type="day"><date when="1309-11-07">Friday <supplied>7 November 1309</supplied></date></head>
+    <div type="place"><opener>Tipperary, manor</opener>
+<ab>From Richard de Valle for arrears of his account: <measure type="currency">111s 10 3/4d</measure></ab></div>
+<closer>Sum: <measure type="currency">111s 10 3/4d</measure> <add><handShift/>as appears</add></closer></div>
+<div type="day"><head type="day"><date when="1309-11-08">Saturday <supplied>8 November 1309</supplied></date></head>
+    <div type="place"><opener>Tipperary</opener>
+<ab>From Robert Smyth for a fine for trespass, by Richard de Valle: <measure type="currency">10s</measure></ab></div>
+<closer>Sum: <measure type="currency">10s</measure> <add><handShift/>as appears</add></closer></div>
+<closer>Sum of weekly receipts: <measure type="currency">£41 6s 10 3/4d</measure> <add><handShift/>proved</add></closer></div>
+<div type="week"><div type="day"><head type="day"><date when="1309-11-10">Monday 10 November <supplied>1309</supplied></date></head>
+    <div type="place"><opener>Drogheda, great new custom</opener>
+<ab>From the issues of the great new custom, by Reginald Irp<supplied>in</supplied>: <measure type="currency">£33 5s 8d</measure></ab></div>
+    <div type="place"><opener>Meath</opener>
+<ab>From Geoffrey de Launeye for a fine for trespass: <measure type="currency">£13 3s 0d</measure></ab></div>
+    <div type="place"><opener>Kerry</opener>
+<ab>From David fitzGerald, sheriff, for the debts of various people: <measure type="currency">106s 8d</measure></ab>
+<ab>From the same sheriff for the profit of the county: <measure type="currency">30s</measure></ab>
+<ab>From the same sheriff for arrears of his account: <measure type="currency">£13 3s 4d</measure></ab></div>
+    <div type="place"><opener>Dublin</opener>
+        <div type="place"><opener>Manors</opener>
+<ab>From the farm of Newcastle Lyons <note type="text"><foreign xml:lang="lat">novi castri de Lyouns</foreign></note>, by John Limput: <measure type="currency">60s</measure></ab>
+<ab>From the same farm, by the tenants of Balycolman: <measure type="currency">40s</measure></ab></div>
+        <div type="place">
+<ab>From the dean and chapter of the church of Ferns for a fine for trespass: <measure type="currency">100s</measure></ab>
+<ab>From Hugh de la Felde because he did not have John de Kent <note type="text">Cantia</note> whom he mainperned: <measure type="currency">1/2 mark</measure></ab></div></div>
+<closer>Sum: <measure type="currency">£75 15s 4d</measure> <add><handShift/>proved</add></closer></div>
+<div type="day"><head type="day"><date when="1309-11-11">Tuesday, St Martin <supplied>11 November 1309</supplied></date></head>
+<ab>Nothing</ab></div>
+<div type="day"><head type="day"><date when="1309-11-12">Wednesday <supplied>12 November 1309</supplied></date></head>
+    <div type="place"><opener>Tipperary</opener>
+<ab>From William Porter <note type="text">le Porter</note> for a fine for trespass: <measure type="currency">40s</measure></ab></div>
+    <div type="place"><opener>Kildare, manors</opener>
+<ab>From the arrears of the rent of Okethy, by Crahyn Mclyn and John Leyssagh: <measure type="currency">40s</measure></ab>
+<ab>From the same arrears, by William Mccray: <measure type="currency">20s 9d</measure></ab>
+<ab>From the same arrears, by Maurice de Doncreny: <measure type="currency">24s 7 1/2d</measure></ab></div>
+    <div type="place"><opener>Dublin, manor</opener>
+<ab>From the rent of Saggart <note type="text">Tassagard</note>, by Henry Bond <note type="text">le Bonde</note>: <measure type="currency">£7</measure></ab></div>
+<closer>Sum: <measure type="currency">£13 5s 4 1/2d</measure> <add><handShift/>proved</add></closer></div>
+<div type="day"><head type="day"><date when="1309-11-13">Thursday <supplied>13 November 1309</supplied></date></head>
+    <pb type="membrane" n="4 face" facs="tna_e_101_235_22_m4_recto.tif"/>
+    <div type="place"><opener>Tipperary</opener>
+<ab>From Walter Mulcot and John Mulcot for a fine to have peace: <measure type="currency">1/2 mark</measure></ab>
+<ab>From the same Walter and John for the same: <measure type="currency">1/2 mark</measure></ab></div>
+<closer>Sum: <measure type="currency">13s 4d</measure> <add><handShift/>proved</add></closer></div>
+<div type="day"><head type="day"><date when="1309-11-14">Friday <supplied>14 November 1309</supplied></date></head>
+    <div type="place"><opener>Tipperary</opener>
+<ab>From Herbert de Mareys for a fine for trespass: <measure type="currency">£10</measure></ab></div>
+    <div type="place"><opener>Waterford</opener>
+        <div type="place"><opener>Manor</opener>
+<ab>From the rent of the Decies, by Reginald Russell: <measure type="currency">£35 6s 8d</measure></ab></div>
+<div type="place"><ab>From the same Reginald for his various debts: <measure type="currency">£6 13s 4d</measure></ab></div></div>
+<closer>Sum: <measure type="currency">£52</measure> <add><handShift/>proved</add></closer></div>
+<div type="day"><head type="day"><date when="1309-11-15">Saturday <supplied>15 November 1309</supplied></date></head>
+    <div type="place"><opener>Drogheda on the side of Uriel</opener>
+<ab>From the mayor and bailiffs of Drogheda for arrears of their account: <measure type="currency">13s 6 1/4d</measure></ab></div>
+    <div type="place"><opener>Dublin, manor</opener>
+<ab>From the farm of Newcastle Lyons <note type="text"><foreign xml:lang="lat">novi castri de Lyouns</foreign></note>, by Peter son of Thomas: <measure type="currency">£6</measure></ab></div>
+    <div type="place"><opener>Cork</opener>
+<ab>From William de Caunton <note type="text">Caunteton</note>, sheriff, for arrears of his account: <measure type="currency">£10</measure></ab>
+<ab>From William de Rupe, sheriff, for the debts of various people: <measure type="currency">£20</measure></ab></div>
+    <div type="place"><opener>Tipperary</opener>
+<ab>From Hugh de Northwych for the waste of one messuage which belonged to Peter le Keu, felon: <measure type="currency">13s 4d</measure></ab></div>
+<closer>Sum: <measure type="currency">£37 6s 10 1/4d</measure> <add><handShift/>proved</add></closer></div>
+<closer>Sum of weekly receipts: <measure type="currency">£179 0s 10 3/4d</measure> <add><handShift/>proved</add></closer></div>
+<div type="week"><div type="day"><head type="day"><date when="1309-11-17">17 November <supplied>1309</supplied></date></head>
+    <div type="place"><opener>Dublin</opener>
+<ab>From Nicholas de Howth <note type="text">Houthe</note> for the pledge of Adam Carryk for a fine to have the <supplied>king's</supplied> suit <supplied>against him</supplied> remitted for the death of John de Sutton, by Adam de Howth <note type="text">Houthe</note>: <measure type="currency">40s 10d</measure></ab>
+<ab>From Almaric de Nugent for the pledge of the same Adam for a fine for the same, by Robert Daundon: <measure type="currency">40s 10d</measure></ab>
+<ab>From Adam Latimer <note type="text">le Latymer</note> for the pledge of the same Adam for a fine for the same, by Adam Latimer <note type="text">le Latymer</note> junior: <measure type="currency">40s 10d</measure></ab></div>
+<closer>Sum: <measure type="currency">£6 2s 6d</measure> <add><handShift/>proved</add></closer></div>
+<div type="day"><head type="day"><date when="1309-11-18">Tuesday <supplied>18 November 1309</supplied></date></head>
+    <div type="place"><opener>Kildare, manor</opener>
+<ab>From the rent of Leixlip <note type="text"><foreign xml:lang="lat">saltus salmonis</foreign></note>, by Peter de Knulle and Adam Clerk <note type="text"><foreign xml:lang="lat">clericum</foreign></note>: <measure type="currency">100s</measure></ab></div>
+<closer>Sum: <measure type="currency">100s</measure> <add><handShift/>as appears <note type="text"><foreign xml:lang="lat">patet</foreign></note></add></closer></div>
+<div type="day"><head type="day"><date when="1309-11-19">Wednesday <supplied>19 November 1309</supplied></date></head>
+    <div type="place"><opener>Tipperary</opener>
+<ab>From William Cut for a fine for trespass: <measure type="currency">1/2 mark</measure></ab>
+<ab>From John Assyk, knight, and all his men except Philip Caudelan for a fine for receiving: <measure type="currency">33s 4d</measure></ab></div>
+    <div type="place"><opener>Escheatry</opener>
+<ab>From Nigel le Bruyn, escheator, by John Selyman for the issues of the escheatry: <measure type="currency">53s 4d</measure></ab></div>
+    <div type="place"><opener>Cork, great new custom</opener>
+<ab>From the issues of the new custom, by Andrew Gerard: <measure type="currency">50 marks</measure></ab></div>
+    <div type="place"><opener>Waterford, great new custom</opener>
+<ab>From the same issues, by the same Andrew: <measure type="currency">50 marks</measure></ab></div>
+<closer>Sum: <measure type="currency">£71 6s 8d</measure> <add><handShift/>proved</add></closer></div>
+<div type="day"><head type="day"><date when="1309-11-20">Thursday, St Edmund the King <supplied>20 November 1309</supplied></date></head>
+<ab>Nothing</ab></div>
+<div type="day"><head type="day"><date when="1309-11-21">Friday <supplied>21 November 1309</supplied></date></head>
+<ab>Nothing</ab></div>
+<div type="day"><head type="day"><date when="1309-11-22">Saturday <supplied>22 November 1309</supplied></date></head>
+<ab>Nothing</ab></div>
+<closer>Sum of weekly receipts: <measure type="currency">£82 9s 2d</measure> <add><handShift/>proved</add></closer></div>
+<closer><add place="in the left-hand margin"><handShift/>Monthly sum: <measure type="currency">£381 0s 3 1/2d</measure></add></closer></div>
+<div type="month"><div type="week"><div type="day"><head type="day">Monday 24 November <supplied>1309</supplied></head>
+    <div type="place"><opener>Uriel</opener>
+<ab>From the community of the town of Dundallk for a fine for trespass: <measure type="currency">10 marks</measure></ab></div>
+    <div type="place"><opener>Kildare</opener>
+<ab>From Gerald Young <note type="text"><foreign xml:lang="french">le Joefne</foreign></note> for a fine for trespass: <measure type="currency">1 mark</measure></ab></div>
+<closer>Sum: <measure type="currency">£7 6s 8d</measure> <add><handShift/>proved</add></closer></div>
+<div type="day"><head type="day"><date when="1309-11-25">Tuesday, St Katherine the virgin <supplied>25 November 1309</supplied></date></head>
+<ab>Nothing</ab></div>
+<div type="day"><head type="day"><date when="1309-11-26">Wednesday <supplied>26 November 1309</supplied></date></head>
+    <div type="place"><opener>Tipperary</opener>
+<ab>From William le Poer for a fine for trespass: <measure type="currency">1 mark</measure></ab></div>
+    <div type="place"><opener>Dublin</opener>
+<ab>From Adam de Hollywood <note type="text"><foreign xml:lang="lat">sancto bosco</foreign></note>, sheriff, for arrears of his account: <measure type="currency">40s</measure></ab></div>
+    <div type="place"><opener>Carlow, manor</opener>
+<ab>From the farm of Fennagh <note type="text">Fynnagh</note>, by Thomas Butler <note type="text"><foreign xml:lang="french">le Botiller</foreign></note>: <measure type="currency">£16</measure></ab></div>
+    <div type="place"><opener>Waterford</opener>
+<ab>From John le Poer, sheriff, for the debts of various people: <measure type="currency">£12</measure></ab>
+<ab>From the same sheriff for the profit of the county: <measure type="currency">20s</measure></ab></div>
+    <div type="place"><opener>Dublin</opener>
+<ab>From John Christopher <note type="text">Christofre</note> and Richard Moynagh for a fine for trespass: <measure type="currency">33s 4d</measure></ab></div>
+<closer>Sum: <measure type="currency">£33 6s 8d</measure> <add><handShift/>proved</add></closer></div>
+<div type="day"><head type="day"><date when="1309-11-27">Thursday <supplied>27 November 1309</supplied></date></head>
+    <div type="place"><opener>Tipperary</opener>
+<ab>From Miles Prat, Elias Prat and other men of the community of the town of Duleek <note type="text">Doulek</note> for a fine for trespass: <measure type="currency">60s</measure></ab></div>
+    <div type="place"><opener>Meath</opener>
+<ab>From Robert Taaf, sheriff, for arrears of his account, by John de Belynges: <measure type="currency">118s 6d</measure></ab></div>
+<closer>Sum: <measure type="currency">£8 18s 7d</measure> <add><handShift/>proved</add></closer></div>
+<div type="day"><head type="day"><date when="1309-11-28">Friday <supplied>28 November 1309</supplied></date></head>
+    <div type="place"><opener>Carlow, manor</opener>
+<ab>From the rent of the town of Carlow, by Thomas Bret: <measure type="currency">73s 4d</measure></ab></div>
+<closer>Sum: <measure type="currency">73s 4d</measure> <add><handShift/>as appears <note type="text"><foreign xml:lang="lat">patet</foreign></note></add></closer></div>
+<div type="day"><head type="day"><date when="1309-11-29">Saturday <supplied>29 November 1309</supplied></date></head>
+    <div type="place"><opener>Uriel, manor</opener>
+<ab>From the rent of Ardee <note type="text"><foreign xml:lang="lat">atrii dei</foreign></note> and Mandevillestown <note type="text">Maundevylston</note>, by Walter de Cusak: <measure type="currency">20 marks</measure></ab></div>
+<closer>Sum: <measure type="currency">£13 6s 8d</measure> <add><handShift/>as appears <note type="text"><foreign xml:lang="lat">patet</foreign></note></add></closer></div>
+<closer>Sum of weekly receipts: <measure type="currency">£66 11s 11d</measure> <add><handShift/>proved</add></closer></div>
+    <div type="week"><div type="day"><head type="day"><date when="1309-12-01">Monday 1 December <supplied>1309</supplied></date></head>
+<div type="place"><opener>Dublin, city</opener>
+<ab>From the farm of the city of Dublin, by William de Compton and John ?Spicer <note type="text">le Spec<supplied>er</supplied></note>: <measure type="currency">£4</measure></ab></div>
+<closer>Sum: <measure type="currency">£4</measure> as appears <note type="text"><foreign xml:lang="lat">patet</foreign></note></closer></div>
+<div type="day"><head type="day"><date when="1309-12-02">Tuesday <supplied>2 December 1309</supplied></date></head>
+    <div type="place"><opener>Dublin</opener>
+<div type="place"><opener>City</opener>
+<ab>From the farm of the city of Dublin, by John le Decer: <measure type="currency">40s</measure></ab></div>
+<div type="place"><ab>From Gilbert le Blund, sheriff, for arrears of his account, for a false claim by Walter de Hereford: <measure type="currency">1/2 mark</measure></ab></div>
+        <div type="place"><opener>City</opener>
+<ab>From the issuse of the mills near Dublin Castle, by William Miller <note type="text"><foreign xml:lang="lat">molendarium</foreign></note>: <measure type="currency">74s</measure></ab></div></div>
+<closer>Sum: <measure type="currency">£6 0s 8d</measure> <add><handShift/>proved</add></closer></div>
+<div type="day"><head type="day"><date when="1309-12-03">Wednesday <supplied>3 December 1309</supplied></date></head>
+    <div type="place"><opener>Wexford</opener>
+<ab>From David Borard for the escape of William son of John Boy of Nyvel, felon: <measure type="currency">40s</measure></ab></div>
+<closer>Sum: <measure type="currency">40s</measure> <add><handShift/>as appears <note type="text"><foreign xml:lang="lat">patet</foreign></note></add></closer></div>
+<div type="day"><head type="day"><date when="1309-12-04">Thursday <supplied>4 December 1309</supplied></date></head>
+    <pb type="membrane" n="6 face" facs="tna_e_101_235_22_m6_recto.tif"/>
+    <div type="place"><opener>Dublin</opener>
+<ab>From John de Stratton for arrears of his account, for the work at Newcastle Mckinegan <note type="text"><foreign xml:lang="lat">novi castri Mckynegan</foreign></note>, by Avice <note type="text">Aviciam</note> his wife: <measure type="currency">119s</measure></ab>
+        <div type="place"><opener>Manor</opener>
+<ab>From the rent of Crumlin <note type="text">Cromelyn</note>, by Simon le Bole: <measure type="currency">£9</measure></ab></div></div>
+<closer>Sum: <measure type="currency">£14 19s 6d</measure> <add><handShift/>proved</add></closer></div>
+<div type="day"><head type="day"><date when="1309-12-05">Friday <supplied>5 December 1309</supplied></date></head>
+<ab>Nothing</ab></div>
+<div type="day"><head type="day"><date when="1309-12-06">Saturday, St Nicholas <supplied>6 December 1309</supplied></date></head>
+<ab>Nothing</ab></div>
+<closer>Sum of weekly receipts: <measure type="currency">£27 0s 2d</measure> <add><handShift/>proved</add></closer></div>
+    <div type="week"><div type="day"><head type="day"><date when="1309-12-08">Monday 8 December <supplied>1309</supplied></date></head>
+<div type="place"><opener>Dublin</opener>
+<ab>From the rent of Waspailstown <note type="text"><foreign xml:lang="lat">ville Waspayl</foreign></note>, by Roger son fo Ralph: <measure type="currency">10s</measure></ab></div>
+<closer>Sum: <measure type="currency">10s</measure> <add><handShift/>as appears <note type="text"><foreign xml:lang="lat">patet</foreign></note></add></closer></div>
+<div type="day"><head type="day"><date when="1309-12-09">Tuesday <supplied>9 December 1309</supplied></date></head>
+    <div type="place"><opener>Dublin</opener>
+<ab>From Thomas Rathlawe, sheriff, for the profit of the county: <measure type="currency">20s</measure></ab></div>
+    <div type="place"><opener>Meath</opener>
+<ab>From Richard Telyng, sheriff, for the debts of various people: <measure type="currency">£10</measure></ab></div>
+    <div type="place"><opener>Dublin, manor</opener>
+<ab>From the rent of Saggart <note type="text">Tassagard</note>, by Henry le Donde: <measure type="currency">£6</measure></ab></div>
+<closer>Sum: <measure type="currency">£17</measure> <add><handShift/>proved</add></closer></div>
+<div type="day"><head type="day"><date when="1309-12-10">Wednesday <supplied>10 December 1309</supplied></date> and <date when="1309-12-11">Thursday <supplied>11 December 1309</supplied></date></head>
+<ab>Nothing</ab></div>
+<div type="day"><head type="day"><date when="1309-12-12">Friday <supplied>12 December 1309</supplied></date></head>
+    <div type="place"><opener>Dublin</opener>
+<ab>From Thomas Rathlawe, sheriff, for the debts of various people: <measure type="currency">50s</measure></ab></div>
+    <div type="place"><opener>Trim</opener>
+<ab>From Edmund de Lacy because he did not have Walter de Lacy, whom he had pledged: <measure type="currency">1/2 mark</measure></ab></div>
+<closer>Sum: <measure type="currency">56s 8d</measure> <add><handShift/>proved</add></closer></div>
+<div type="day"><head type="day"><date when="1309-12-13">Saturday, St Lucy the virgin <supplied>13 December 1309</supplied></date></head>
+<ab>Nothing</ab></div>
+<closer>Sum of weekly receipts: <measure type="currency">£20 6s 8d</measure> <add><handShift/>proved</add></closer></div>
+<div type="week"><div type="day"><head type="day"><date when="1309-12-15">Monday 15 December <supplied>1309</supplied></date></head>
+    <div type="place"><opener>Kildare</opener>
+<ab>From Matilda Castel for a fine for trespass: <measure type="currency">5 marks</measure></ab></div>
+    <div type="place"><opener>Dublin</opener>
+<ab>From William White <note type="text">le Whyte</note> of Skaterny for a fine for trespass: <measure type="currency">16s</measure></ab>
+        <div type="place"><opener>Manor</opener>
+<ab>From the rent of Crumlin <note type="text">Cromelyn</note>, by Simon le Bole: <measure type="currency">50s</measure></ab></div></div>
+<closer>Sum: <measure type="currency">£6 12s 8d</measure> <add><handShift/>proved</add></closer></div>
+<div type="day"><head type="day"><date when="1309-12-16">Tuesday <supplied>16 December 1309</supplied></date></head>
+    <div type="place"><opener>Dublin, manor</opener>
+<ab>From the farm of Newcastle Lyons <note type="text"><foreign xml:lang="lat">novi castri de Lyouns</foreign></note> <del>for a fine for trespass</del>, by the tenants of Balycolman: <measure type="currency">20s</measure></ab></div>
+<closer>Sum: <measure type="currency">20s</measure> <add>as appears <note type="text"><foreign xml:lang="lat">patet</foreign></note></add></closer></div>
+<div type="day"><head type="day"><date when="1309-12-17">Wednesday <supplied>17 December 1309</supplied></date></head>
+    <div type="place"><opener>Dublin, manor</opener>
+<ab>From William le Deveneys for the rent of Thorncastle <note type="text">Thorncastel</note>: <measure type="currency">54s 2d</measure></ab></div>
+    <div type="place"><opener>Kildare</opener>
+<ab>From the same William for the issues of the lands of John de Swynesheved: <measure type="currency">30s</measure></ab></div>
+    <div type="place"><opener>Dublin</opener>
+<ab>From Thomas de Snytterby for a fine for trespass: <measure type="currency">£20</measure></ab></div>
+<closer>Sum: <measure type="currency">£24 4s 2d</measure> <add><handShift/>proved</add></closer></div>
+<closer>Sum of three days' receipts: <measure type="currency">£31 16s 10d</measure> <add><handShift/>proved</add></closer></div>
+<closer><add place="In the left-hand margin">Sum of three weeks and three days' receipts: <measure type="currency">£145 15s 6d</measure><handShift/></add></closer></div>
+<closer>Sum of sums, the total gross receipts in this Michaelmas term: <measure type="currency">£919 13 3/4d</measure></closer></div>
+<gap reason="blank" extent="18 lines"/>
+<div type="term"><head type="term">Receipts in <date from="1310-01-23" to="1310-02-12">Hilary term in the above year</date></head>
+<div type="month">
+<div type="week">
+<div type="day"><head type="day"><date when="1310-01-14">Wednesday, the morrow of St Hilary 14 January <supplied>1310</supplied></date></head>
+    <div type="place"><opener>Uriel</opener>
+<ab>From the abbot of Mellifont <note type="text">Mellyfonte</note> for his various debts: <measure type="currency">£10</measure></ab></div>
+    <div type="place"><opener>Dublin</opener>
+<ab>From Simon de Colbrok for a fine for trespass: <measure type="currency">1/2 mark</measure></ab></div>
+    <div type="place"><opener>Drogheda</opener>
+<ab>From Thomas de Ulveston and John de Cartmel for selling various victuals: <measure type="currency">58s 8 1/2d</measure></ab></div>
+<closer>Sum: <measure type="currency">£13 5s 4 1/2d</measure> <add><handShift/>proved</add></closer></div>
+<div type="day"><head type="day"><date when="1310-01-15">Thursday <supplied>15 January 1310</supplied></date></head>
+    <div type="place"><opener>Dublin</opener>
+<ab>From Adam de Hollywood <note type="text"><foreign xml:lang="lat">sancto bosco</foreign></note>, sheriff, for arrears of his account, by Jordan le Reve and Richard son of Roger: <measure type="currency">1 mark</measure></ab>
+<ab>From Richard Costantyn, sheriff, for arrears of his account, for Geoffrey Broun and others, by William de Finglas: <measure type="currency">60s</measure></ab></div>
+    <div type="place"><opener>Meath</opener>
+<ab>From Robert Taaf, sheriff, for arrears of his account, by Richard son of Maurice de Cruys: <measure type="currency">20s</measure></ab></div>
+    <div type="place"><opener>Uriel</opener>
+<ab>From Stephen Roth for a fine for trespass, by his executors: <measure type="currency">£20</measure></ab></div>
+<closer>Sum: <measure type="currency">£24 13s 4d</measure> <add><handShift/>proved</add></closer></div>
+<div type="day"><head type="day"><date when="1310-01-16">Friday <supplied>16 January 1310</supplied></date></head>
+    <div type="place"><opener>Trim</opener>
+<ab>From Roger Mortimer <note type="text"><foreign xml:lang="lat">de mortuo mari</foreign></note> for the debts of various people: <measure type="currency">34s 4d</measure></ab></div>
+    <div type="place"><opener>Uriel</opener>
+<ab>From Roger Roth, sheriff, for arrears of his account: <measure type="currency">5 marks</measure></ab></div>
+<closer>Sum: <measure type="currency">101s</measure> <add><handShift/>proved</add></closer></div>
+<div type="day"><head type="day"><date when="1310-01-17">Saturday <supplied>17 January 1310</supplied></date> <add><del>patet</del></add></head>
+    <div type="place"><opener>Dublin</opener>
+<ab>From Richard Costantyn, sheriff, for arrears of his account: <measure type="currency">20s</measure></ab></div>
+<closer>Sum: <measure type="currency">20s</measure> <add><handShift/>as appears <note type="text"><foreign xml:lang="lat">patet</foreign></note></add></closer></div>
+<closer>Sum of four days' receipts: <measure type="currency">£43 19s 8 1/2d</measure> <add><handShift/>proved</add></closer></div>
+<div type="week"><div type="day"><head type="day"><date when="1310-01-19">Monday 19 January <supplied>1310</supplied></date></head>
+    <div type="place"><opener>Uriel, manor</opener>
+<ab>From the rent of Ardee <note type="text"><foreign xml:lang="lat">Atrii dei</foreign></note> and Maundevylston, by Walter de Cusak:<measure type="currency">40 marks</measure></ab></div>
+<closer>Sum: <measure type="currency">£26 13s 4d</measure> as appears <note type="text"><foreign xml:lang="lat">patet</foreign></note></closer></div>
+<div type="day"><head type="day"><date when="1310-01-20">Tuesday <supplied>20 January 1310</supplied></date></head>
+    <div type="place"><opener>Meath</opener>
+<ab>From Geoffrey de Auneye for a fine for trespass, by Thomas Young <note type="text"><foreign xml:lang="french">le Joefne</foreign></note>: <measure type="currency">21s 9d</measure></ab></div>
+<closer>Sum: <measure type="currency">21s 9d</measure> <handShift/>as appears <note type="text"><foreign xml:lang="lat">patet</foreign></note></closer></div>
+<div type="day"><head type="day"><date when="1310-01-21">Wednesday <supplied>21 January 1310</supplied></date></head>
+<ab>Nothing</ab></div>
+    <pb type="membrane" n="7 face" facs="tna_e_101_235_22_m7_recto.tif"/>
+<div type="day"><head type="day"><date when="1310-01-22">Thursday <supplied>22 January 1310</supplied></date></head>
+    <div type="place"><opener>Connacht, manor</opener>
+<ab>From the rent of Admekyn, by William de Burgh: <measure type="currency">£28</measure></ab></div>
+    <div type="place"><opener>Roscommon</opener>
+        <ab>From the rent of Sil Muiredaig <note type="text">Schylmorthy</note>, by the same William: <measure type="currency">50 marks</measure></ab></div>
+    <div type="place"><opener>Escheatry</opener>
+<ab>From Thomas de Maundevyll for the lands of Ardmaysth, by the same William: <measure type="currency">£30</measure></ab></div>
+    <div type="place"><opener>Cork, city</opener>
+<ab>From the farm of the city of Cork, by William de Youghal <note type="text">Yoghill</note>: <measure type="currency">£20</measure></ab>
+<ab>From the farm of Fayth, by the same William: <measure type="currency">40s</measure></ab></div>
+<closer>Sum: <measure type="currency">£113 6s 8d</measure> proved</closer></div>
+<div type="day"><head type="day"><date when="1310-01-23"><del>Thursday</del> Friday <supplied>23 January 1310</supplied></date></head>
+    <div type="place"><opener>Escheatry</opener>
+<ab>From Nigel le Bruyn, escheator, for the issues of the escheatry, by John Sampson: <measure type="currency">36s</measure></ab></div>
+    <div type="place"><opener>Dublin, city</opener>
+<ab>From the mayor and bailiffs of the city of Dublin for Henry de Ash <note type="text"><foreign xml:lang="french">Freyns</foreign></note> for arrears of his account for the mill next to Dublin Castle, by the executors of J de Selby: <measure type="currency">13s 3d</measure></ab></div>
+<closer>Sum: <measure type="currency">49s 3d</measure> proved</closer></div>
+<div type="day"><head type="day"><date when="1310-01-24">Saturday <supplied>24 January 1310</supplied></date></head>
+<ab>Nothing</ab></div>
+<closer>Sum of weekly receipts: <measure type="currency">£143 11s 0d</measure> proved</closer></div>
+<div type="week"><div type="day"><head type="day"><date when="1310-01-26">Monday 26 January <supplied>1310</supplied></date></head>
+    <div type="place"><opener>Dublin</opener>
+<ab>From Thomas de Rathlawe, sheriff, for the debts of various people: <measure type="currency">28s 4d</measure></ab>
+<ab>From Nicholas de Vylers for a fine for trespass: <measure type="currency">26s 8d</measure></ab></div>
+<closer>Sum: <measure type="currency">55s</measure> proved</closer></div>
+<div type="day"><head type="day"><date when="1310-01-27">Tuesday <supplied>27 January 1310</supplied></date></head>
+    <div type="place"><opener>Dublin</opener>
+<ab>From Simon de Braybrok, parson of the church of Fythard for a fine for trespass: <measure type="currency">20s</measure></ab>
+<ab>From Henry de Belinges for a fine for trespass: <measure type="currency">20s</measure></ab></div>
+    <div type="place"><opener>Tipperary</opener>
+<ab>From Walter le Bret, sheriff, for arrears of his account: <measure type="currency">£21</measure></ab></div>
+<closer>Sum: <measure type="currency">£23</measure> proved</closer></div>
+<div type="day"><head type="day"><date when="1310-01-28">Wednesday <supplied>28 January 1310</supplied></date></head>
+    <div type="place"><opener>Dublin, city</opener>
+<ab>From the arrears of the farm of the city of Dublin, by Andrew de Assheburn and John de Leicester <note type="text">Leycestre</note>: <measure type="currency">£25</measure></ab></div>
+<closer>Sum: <measure type="currency">£25</measure> as appears <note type="text"><foreign xml:lang="lat">patet</foreign></note></closer></div>
+<div type="day"><head type="day"><date when="1310-01-29">Thursday <supplied>29 January 1310</supplied></date></head>
+    <div type="place"><opener>Dublin</opener>
+<ab>From William White <note type="text">le Whyte</note> of Staterny for a fine for trespass: <measure type="currency">24s</measure></ab>
+<ab>From Richard Costantyn, sheriff, for arrears of his account: <measure type="currency">7s 4d</measure></ab>
+        <div type="place"><opener>City</opener>
+<ab>From the arrears of the farm of the city of Dublin, by Robert de Nottingham <note type="text">Notyngham</note> mayor <note type="text"><foreign xml:lang="lat">maiorem</foreign></note>: <measure type="currency">10 marks</measure></ab></div></div>
+<closer>Sum: <measure type="currency">£8 4s 8d</measure> proved</closer></div>
+<div type="day"><head type="day"><date when="1310-01-30">Friday <supplied>30 January 1310</supplied></date> and <date when="1310-01-31">Saturday <supplied>31 January 1310</supplied></date></head>
+<ab>Nothing</ab></div>
+<closer>Sum of weekly receipts: <measure type="currency">£58 19s 8d</measure> <add><handShift/>proved</add></closer></div>
+<div type="week"><div type="day"><head type="day"><date when="1310-02-02">Monday, Candlemas, 2 February <supplied>1310</supplied></date></head>
+<ab>Nothing</ab></div>
+<div type="day"><head type="day"><date when="1310-02-03">Tuesday <supplied>3 February 1310</supplied></date></head>
+    <div type="place"><opener>Kildare, manor</opener>
+<ab>From the rent of Leixlip <note type="text"><foreign xml:lang="lat">saltus salmonis</foreign></note>, by Peter Knulle and Adam Clerk <note type="text">le Clerk</note>: <measure type="currency">100s</measure></ab></div>
+    <div type="place"><opener>Dublin, manors</opener>
+<ab>From the arrears of the farm of Saggart <note type="text">Tassagard</note>, by Peter Sely: <measure type="currency">40s</measure></ab>
+<ab>From the farm of Saggart <note type="text">Tassagard</note>, by Henry Bond <note type="text">le Bonde</note>: <measure type="currency">£4</measure></ab></div>
+    <div type="place"><opener>Kildare, manors</opener>
+<ab>From the rent of Oughterard <note type="text">Ughterard</note>, by Walter Jordan: <measure type="currency">£6</measure></ab>
+<ab>From the rent of Okethy, by Roger le Waleys and Roger son of Adam: <measure type="currency">£6 10s</measure></ab></div>
+    <div type="place"><opener>Dublin, manors</opener>
+<ab>From the rent of Crumlin <note type="text">Cromelyn</note>, by Simon Bole: <measure type="currency">£4</measure></ab>
+<ab>From the farm of Newcastle Lyons <note type="text"><foreign xml:lang="lat">novi castri de Lyouns</foreign></note>, by Peter son of Thomas: <measure type="currency">£7</measure></ab>
+<ab>From the same farm, by John Lympit: <measure type="currency">40s</measure></ab></div>
+<closer>Sum: <measure type="currency">£37</measure> proved</closer></div>
+<div type="day"><head type="day"><date when="1310-02-04">Wednesday <supplied>4 February 1310</supplied></date></head>
+    <div type="place"><opener>Dublin</opener>
+<ab>From John de Stratton for arrears of his account for the works at Newcastle Mckinegan <note type="text"><foreign xml:lang="lat">novi castri Mckynegan</foreign></note>, by Avicia his wife: <measure type="currency">£6 2s</measure></ab>
+        <div type="place"><opener>Manor</opener>
+<ab>From the rent of Esker, by Roger Brekespere and Dermot Draper <note type="text">le Drapere</note>: <measure type="currency">100s</measure></ab></div></div>
+<closer>Sum: <measure type="currency">£11 2s 0d</measure> proved</closer></div>
+<div type="day"><head type="day"><date when="1310-02-05">Thursday <supplied>5 February 1310</supplied></date></head>
+<ab>Nothing</ab></div>
+<div type="day"><head type="day"><date when="1310-02-06">Friday <supplied>6 February 1310</supplied></date></head>
+    <div type="place"><opener>Wexford</opener>
+<ab>From Walter Wogan, seneschal, for five escapes, by Richard le Blund for Robert de la Chambre: <measure type="currency">5 marks</measure></ab></div>
+<closer>Sum: <measure type="currency">66s 8d</measure> as appears <note type="text"><foreign xml:lang="lat">patet</foreign></note></closer></div>
+<div type="day"><head type="day"><date when="1310-02-07">Saturday <supplied>7 February 1310</supplied></date></head>
+    <div type="place"><opener>Dublin</opener>
+<ab>From Balygriffyn for a half-service of Roscrea <note type="text">Roscre</note> in the time of John, archbishop of Dublin: <measure type="currency">14s</measure></ab></div>
+<closer>Sum: <measure type="currency">14s</measure> as appears <note type="text"><foreign xml:lang="lat">patet</foreign></note></closer></div>
+<closer>Sum of weekly receipts: <measure type="currency">£52 2s 8d</measure> <add><handShift/>proved</add></closer></div> <note type="editorial">A monthly sum is missing here.</note></div>
+<div type="month"> 
+<div type="week"><div type="day"><head type="day"><date when="1310-02-09">Monday 9 February <supplied>1310</supplied></date></head>
+<ab>Nothing</ab></div>
+<div type="day"><head type="day"><date when="1310-02-10">Tuesday <supplied>10 February 1310</supplied></date></head>
+    <div type="place"><opener>Dublin</opener>
+<ab>From John Ussher <note type="text">le Ussher</note>, constable of Dublin Castle, for £4 7s found in the treasury: <measure type="currency">£4 6s 0d</measure></ab></div>
+<closer>Sum: <measure type="currency">£4 7s 0d</measure> as appears <note type="text"><foreign xml:lang="lat">patet</foreign></note></closer></div>
+<div type="day"><head type="day"><date when="1310-02-11">Wednesday <supplied>11 February 1310</supplied></date></head>
+    <div type="place"><opener>Meath</opener>
+<ab>From Geoffrey del Auneye for a fine for trespass, by William Wolf <note type="text"><foreign xml:lang="french">le Lou</foreign></note>, clerk: <measure type="currency">5s</measure></ab></div>
+<closer>Sum: <measure type="currency">5s</measure> as appears <note type="text"><foreign xml:lang="lat">patet</foreign></note></closer></div>
+<div type="day"><head type="day"><date when="1310-02-12">Thursday <supplied>12 February 1310</supplied></date>, <date when="1310-02-13">Friday <supplied>13 February 1310</supplied></date> and <date when="1310-02-14">Saturday <supplied>14 February 1310</supplied></date></head>
+<ab>Nothing</ab></div>
+<closer>Sum of weekly receipts: <measure type="currency">£4 12s 0d</measure> <add><handShift/>oroved</add></closer></div>
+<div type="week"><div type="day"><head type="day"><date when="1310-02-16">Monday 16 February <supplied>1310</supplied></date></head>
+    <div type="place"><opener>Dublin, archbishopric</opener>
+<ab>From Richard, <supplied>bishop-</supplied>elect of Dublin for the debts of various people, by Gilbert de Coudray: <measure type="currency">21s 8d</measure></ab></div>
+<closer>Sum: <measure type="currency">21s 8d</measure> ass appears <note type="text"><foreign xml:lang="lat">patet</foreign></note></closer></div>
+<div type="day"><head type="day"><date when="1310-02-17">Tuesday <supplied>17 February 1310</supplied></date></head>
+<ab>Nothing</ab></div>
+<div type="day"><head type="day"><date when="1310-02-18">Wednesday <supplied>18 February 1310</supplied></date></head>
+    <div type="place"><opener>Cork, great new custom</opener>
+<ab>From William Pollard for arrears of his account for the great new custom: <measure type="currency">20 marks</measure></ab></div>
+<closer>Sum: <measure type="currency">£13 6s 8d</measure> <add><handShift/>proved <note type="text"><foreign xml:lang="lat">patet</foreign></note></add></closer></div>
+<div type="day"><head type="day"><date when="1310-02-19">Thursday <supplied>19 February 1310</supplied></date>, <date when="1310-02-20">Friday <supplied>20 February 1310</supplied></date> and <date when="1310-02-21">Saturday <supplied>21 February 1310</supplied></date></head>
+<ab>Nothing</ab></div>
+<closer>Sum of weekly receipts: <measure type="currency">£14 8s 4d</measure> <add><handShift/>proved</add></closer></div>
+    <pb type="membrane" n="8 face" facs="tna_e_101_235_22_m8_recto.tif"/>
+<div type="week"><div type="day"><head type="day"><date when="1310-02-23">Monday 23 February <supplied>1310</supplied></date></head>
+    <div type="place"><opener>Escheatry</opener>
+<ab>From Nigel le Brun, escheator, for the issues of the escheatry, by Richard Gernon: <measure type="currency">40s</measure></ab></div>
+    <div type="place"><opener>Kildare, manors</opener>
+<ab>From the rent of Leixlip <note type="text"><foreign xml:lang="lat">saltus salmonis</foreign></note>, by Peter Knylle and Adam Clerk <note type="text"><foreign xml:lang="lat">clericum</foreign></note>: <measure type="currency">£6</measure></ab>
+<ab>From the rent of Okethy, by Roger le Waleys and Roger son of Adam: <measure type="currency">£4</measure></ab></div>
+    <div type="place"><opener>Dublin, manors</opener>
+<ab>From the arrears of the farm of Saggart <note type="text">Tassagard</note>, by Richard Beg: <measure type="currency">60s</measure></ab>
+<ab>From the farm of Saggart <note type="text">Tassagard</note>, by Henry <add place="above the line">le</add> Bonde: <measure type="currency">60s</measure></ab>
+<ab>From the arrears of the rent of Crumlin <note type="text">Cromelyn</note>, by Nicholas Sturry: <measure type="currency">17s 6d</measure></ab></div>
+    <div type="place"><opener>Kildare, manor</opener>
+<ab>From the arrears of the rent of Okethy, by Crahyn Mclyn and John Lesagh: <measure type="currency">20s</measure></ab></div>
+    <div type="place"><opener>Kildare, manors</opener>
+<ab>From the farm of Newcastle Lyons <note type="text"><foreign xml:lang="lat">novi castri de Lyouns</foreign></note>, by Peter son of Thomas: <measure type="currency">£6</measure></ab>
+<ab>From the arrears of the same farm, by John Lympit: <measure type="currency">40s</measure></ab>
+<ab>From the rent of Esker, by Roger Brekespere: <measure type="currency">20s</measure></ab>
+<ab>From the farm of Newcastle Lyons <note type="text"><foreign xml:lang="lat">novi castri de Lyonns</foreign></note>, by the tenants of Balicolman: <measure type="currency">20s</measure></ab></div>
+    <div type="place"><opener>Kildare, manor</opener>
+<ab>From the rent of Oughterard <note type="text">Ughterard</note>, by Walter Jordan: <measure type="currency">40s</measure></ab></div>
+    <div type="place"><opener>Dublin, manor</opener>
+<ab>From the rent of Crumlin <note type="text">Cromelyn</note>, by Simon Bole: <measure type="currency">30s</measure></ab></div>
+    <div type="place"><opener>Kildare, manors</opener>
+<ab>From the arrears of the rent of Oughterard <note type="text">Ughterard</note>, by Richard Bernard: <measure type="currency">20s</measure></ab>
+<ab>From the rent of Oughterard <note type="text">Ughterard</note>, by William Llandaf: <measure type="currency">30s</measure></ab></div>
+<closer>Sum: <measure type="currency">£35 17s 6d</measure> proved</closer></div>
+<div type="day"><head type="day"><date when="1310-02-24">Tuesday, St Matthew the Apostle <supplied>24 February 1310</supplied></date></head>
+<ab>Nothing</ab></div>
+<div type="day"><head type="day"><date when="1310-02-25">Wednesday <supplied>25 February 1310</supplied></date></head>
+    <div type="place"><opener>Dublin, manor</opener>
+<ab>From the farm of Saggart <note type="text">Tassagard</note>, by Peter Sely: <measure type="currency">20s</measure></ab></div>
+    <div type="place"><opener>Tipperary</opener>
+<ab>From William son of William, Ivo his son and other sons of the same William for a fine for trespass: <measure type="currency">50s</measure></ab></div>
+    <div type="place"><opener>Escheatry</opener>
+<ab>From Nigel le Bruyn, escheator, for the issues of the lands of John Chapman <note type="text">le Chapman</note>, by Richard Gernon: <measure type="currency">15s</measure></ab></div>
+    <div type="place"><opener>Meath</opener>
+<ab>From Robert Taaf, sheriff, for arrears of his account, by Robert de Whatton: <measure type="currency">£8</measure></ab></div>
+    <div type="place"><opener>Limerick</opener>
+<ab>From John de Athy, sheriff, for the debts of various people, by Richard the receiving clerk <note type="text"><foreign xml:lang="lat">clericum recept'</foreign></note>: <measure type="currency">£32</measure></ab></div>
+<closer>Sum: <measure type="currency">£44 5s 0d</measure> proved</closer></div>
+<div type="day"><head type="day"><date when="1310-02-26">Thursday <supplied>26 February 1310</supplied></date></head>
+    <div type="place"><opener>Dublin, manor</opener>
+<ab>From the rent of Crumlin <note type="text">Cromelyn</note>, by Simon Bole: <measure type="currency">10s</measure></ab></div>
+<closer>Sum: <measure type="currency">10s</measure> as appears <note type="text"><foreign xml:lang="lat">patet</foreign></note></closer></div>
+<div type="day"><head type="day"><date when="1310-02-27">Friday <supplied>27 February 1310</supplied></date></head>
+<ab>Nothing</ab></div>
+<div type="day"><head type="day"><date when="1310-02-28">Saturday <supplied>28 February 1310</supplied></date></head>
+    <div type="place"><opener>Dublin, manor</opener>
+<ab>From the arrears of the farm of Saggart <note type="text">Tassagard</note>, by Richard Beg: <measure type="currency">30s</measure></ab></div>
+<closer>Sum: <measure type="currency">30s</measure> as appears <note type="text"><foreign xml:lang="lat">patet</foreign></note></closer></div>
+<closer>Sum of weekly receipts: <measure type="currency">£82 2s 6d</measure> proved</closer></div>
+<div type="week"><div type="day"><head type="day"><date when="1310-03-02">Monday 2 March <supplied>1310</supplied></date></head>
+    <div type="place"><opener>Meath</opener>
+<ab>From Robert Taaf, sheriff, for arrears of his account: <measure type="currency">100s</measure></ab></div>
+    <div type="place"><opener>Escheatry</opener>
+<ab>From Nigel le Bruyn, escheator, for the issues of the escheatry, by the abbess <note type="text"><foreign xml:lang="lat">abatissam</foreign></note> del Hogges: <measure type="currency">40s</measure></ab></div>
+    <div type="place"><opener>English debts, by the merchants of Lucca</opener>
+<ab>From the merchants of the society of the Riccardi of Lucca for their English debts, by Leopard de la Mareys: <measure type="currency">£24 10s 0d</measure></ab></div>
+    <div type="place"><opener>Dublin, manor</opener>
+<ab>From the arrears of the farm of Saggart <note type="text">Tassagard</note>, by Helen <note type="text">Elenam</note> Deveneys: <measure type="currency">28s</measure></ab></div>
+<closer>Sum: <measure type="currency">£32 18s 0d</measure> proved</closer></div>
+<div type="day"><head type="day"><date when="1310-03-03">Tuesday <supplied>3 March 1310</supplied></date></head>
+<ab>Nothing</ab></div>
+<div type="day"><head type="day"><date when="1310-03-04">Wednesday <supplied>4 March 1310</supplied></date></head>
+    <div type="place"><opener>Meath</opener>
+<ab>From the executors of the will <note type="text"><foreign xml:lang="lat">testamenti</foreign></note> of Master Adam de Botyngdon, by William de Lacy and others: <measure type="currency">£7 6s 8d</measure></ab></div>
+<closer>Sum: <measure type="currency">£7 6s 8d</measure> as appears <note type="text"><foreign xml:lang="lat">patet</foreign></note></closer></div>
+<div type="day"><head type="day"><date when="1310-03-05">Thursday <supplied>5 March 1310</supplied></date></head>
+<ab>Nothing</ab></div>
+<div type="day"><head type="day"><date when="1310-03-06">Friday <supplied>6 March 1310</supplied></date></head>
+    <div type="place"><opener>Dublin</opener>
+<ab>From Gilbert le Blund, sheriff, for arrears of his account: <measure type="currency">16s</measure></ab>
+        <div type="place"><opener>Manors</opener>
+<ab>From the farm of Saggart <note type="text">Tassagard</note>, by Henry Bond <note type="text">le Bonde</note>: <measure type="currency">20s</measure></ab>
+<ab>From the arrears of the farm of Saggart <note type="text">Tassagard</note>, by Peter Sely: <measure type="currency">60s</measure></ab>
+<ab>From the same arrears, by Richard Beg: <measure type="currency">30s</measure></ab></div></div>
+    <div type="place"><opener>Kildare, manor</opener>
+<ab>From the arrears of the rent of Oughterard <note type="text">Ughterard</note>, by Adam Palmer <note type="text">le Palmere</note>: <measure type="currency">10s</measure></ab></div>
+<closer>Sum: <measure type="currency">£6 16s 0d</measure> proved</closer></div>
+    <pb type="membrane" n="9 face" facs="tna_e_101_235_22_m9_recto.tif"/>
+<div type="day"><head type="day"><date when="1310-03-07">Saturday <supplied>7 March 1310</supplied></date></head>
+    <div type="place"><opener>Dublin, manors</opener>
+<ab>From the rent of Corcagh, by John son of Richard and William Shirlok: <measure type="currency">£8 10s 0d</measure></ab>
+<ab>From the arrears of the farm of Saggart <note type="text">Tassagard</note>, by Richard Beg: <measure type="currency">30s</measure></ab></div>
+    <div type="place"><opener>Kildare, manor</opener>
+<ab>From the arrears of the rent of Oughterard <note type="text">Ughterard</note>, by Adam Palmer <note type="text">le Palmere</note>: <measure type="currency">40s</measure></ab></div>
+    <div type="place"><opener>Dublin, manor</opener>
+<ab>From the arrears of the rent of Saggart <note type="text">Tassagard</note>, by Peter Sely: <measure type="currency">34s</measure></ab></div>
+    <div type="place"><opener>Kildare, manors</opener>
+<ab>From the arrears of the rent of Oughterard <note type="text">Ughterard</note>, by Walter le Reve: <measure type="currency">16s</measure></ab>
+<ab>From the same arrears, by Henry Alewyn: <measure type="currency">37s 6d</measure></ab>
+<ab>From the arrears of the rent of Okethy, by Roger son of Adam: <measure type="currency">100s</measure></ab>
+<ab>From the arrears of the rent of Oughterard <note type="text">Ughterard</note>, by Richard Alewyn: <measure type="currency">12s</measure></ab>
+<ab>From the same arrears, by Henry le Reve: <measure type="currency">6s</measure></ab>
+<ab>From the same arrears, by Richard Bernard: <measure type="currency">19s</measure></ab></div>
+    <div type="place"><opener>Dublin</opener>
+        <div type="place"><opener>Manors</opener>
+<ab>From the farm of Newcastle Lyons <note type="text"><foreign xml:lang="lat">novi castri de Lyouns</foreign></note>, by John Lymput: <measure type="currency">50s</measure></ab>
+<ab>From the arrears of the farm of Saggart <note type="text">Tassagard</note>, by Richard Beg: <measure type="currency">20s</measure></ab></div>
+        <div type="place">
+<ab>From Thomas de Rathlawe, sheriff, for the debts of various people: <measure type="currency">16s</measure></ab></div></div>
+    <div type="place"><opener>Meath</opener>
+<ab>From Robert Taaf for a fine: <measure type="currency">20s</measure></ab></div>
+    <div type="place"><opener>Kildare, manor</opener>
+<ab>From the arrears of the rent of Oughterard <note type="text">Ughterard</note>, by Henry le Reve: <measure type="currency">7s</measure></ab></div>
+<closer>Sum: <measure type="currency">£28 12s 6d</measure> <add><handShift/>proved</add></closer></div>
+<closer><handShift/>Sum of weekly receipts: <measure type="currency">£75 13s 2d</measure> <add><handShift/>proved</add></closer></div>
+<closer><add place="left-hand margin"><handShift/>Monthly sum: <measure type="currency">£176 16s 0d</measure></add></closer></div>
+<closer><handShift/>Sum of sums, the whole receipt in this Hilary term: <measure type="currency">£475 9s 01/2d</measure> proved, from which <measure type="currency">£24 10s 0d</measure> from the merchants of Lucca</closer></div>
+<gap reason="blank" extent="11 lines"/>
+<div type="term"><head type="term">Receipts in <date from="1310-05-06" to="1310-06-01">Easter term in the abovesaid year</date></head>
+<div type="month"><div type="week"><div type="day"><head type="day"><date when="1310-04-27">Monday, the morrow of the close of Easter, 27 April <supplied>1310</supplied></date></head>
+    <div type="place"><opener>Drogheda on the side of Uriel</opener>
+<ab>From the farm of Drogheda, by Martin de Sewell and William Bryan: <measure type="currency">£20</measure></ab></div>
+    <div type="place"><opener>Uriel</opener>
+<ab>From Walter de Bonedale, sheriff, for the debts of various people, by Hugh de Clinton: <measure type="currency">£23 18s 10d</measure></ab>
+<ab>From the same sheriff, for the profit of the county, by <add place="above the line">the same</add> Hugh: <measure type="currency">40s</measure></ab></div>
+<closer>Sum: <measure type="currency">£45 18s 10d</measure> <add><handShift/>proved</add></closer></div>
+<div type="day"><head type="day"><date when="1310-04-28">Tuesday <supplied>28 April 1310</supplied></date></head>
+<ab>Nothing</ab></div>
+<div type="day"><head type="day"><date when="1310-04-29">Wednesday <supplied>29 April 1310</supplied></date></head>
+    <div type="place"><opener>Kildare</opener>
+<ab>From Richard son of Reginald for a fine for trespass, by Geoffrey his son: <measure type="currency">50s</measure></ab></div>
+    <div type="place"><opener>Drogheda on the side of Meath</opener>
+<ab>From the farm of Drogheda, by Philip de Rathmolan: <measure type="currency">20 marks</measure></ab></div>
+    <div type="place"><opener>Meath</opener>
+<ab>From Richard Teling, sheriff, for the debts of various people, by Nicholas de Cusak, receiver: <measure type="currency">£25s 3s 8d</measure></ab>
+<ab>From the same sheriff for the debts of various people: <measure type="currency">100s</measure></ab>
+<ab>From the same sheriff for the profit of the county: <measure type="currency">60s</measure></ab></div>
+    <div type="place"><opener>Dublin, city</opener>
+<ab>From the mayor and bailiffs of the city of Dublin, for their various debts, by Andrew de Ashburn <note type="text">Assheburn</note>: <measure type="currency">10 marks</measure></ab></div>
+<closer>Sum: <measure type="currency">£55 13s 8d</measure> proved</closer></div>
+<div type="day"><head type="day"><date when="1310-04-30">Thursday <supplied>30 April 1310</supplied></date></head>
+    <div type="place"><opener>Dublin</opener>
+<ab>From Adam de Hollywood <note type="text"><foreign xml:lang="lat">sancto bosco</foreign></note>, sheriff, for arrears of his account, by Master Adam de Stratton: <measure type="currency">100s</measure></ab></div>
+    <div type="place"><opener>Kildare, manor</opener>
+<ab>From the rent of Leixlip <note type="text"><foreign xml:lang="lat">saltus salmonis</foreign></note>, by Thomas de Kent: <measure type="currency">£10</measure></ab></div>
+<closer>Sum: <measure type="currency">£15</measure> proved</closer></div>
+<div type="day"><head type="day"><date when="1310-05-01">Friday, SS Philip and James, apostles <supplied>1 May 1310</supplied></date></head>
+<ab>Nothing</ab></div>
+    <div type="day"><head type="day"><date when="1310-05-02">Saturday <supplied>2 May 1310</supplied></date></head>
+<div type="place"><opener>Kildare, manor</opener>
+<ab>From the rent of Leixlip <note type="text"><foreign xml:lang="lat">saltus salmonis</foreign></note>, by Peter de ?Knville and Adam Clerk <note type="text">le Clerk</note>: <measure type="currency">£9</measure></ab></div>
+<closer>Sum: <measure type="currency">£9</measure> as appears</closer></div>
+<closer>Sum of weekly receipts: <measure type="currency">£125 12s 6d</measure> <add><handShift/>proved</add></closer></div>
+<div type="week"><div type="day"><head type="day"><date when="1310-05-04">Monday 4 May <supplied>1310</supplied></date></head>
+    <div type="place"><opener>Dublin</opener>
+<ab>From Richard Tyrell for a fine: <measure type="currency">20s</measure></ab></div>
+    <div type="place"><opener>Limerick</opener>
+<ab>From John son of Pontius for a fine for trespass: <measure type="currency">20s</measure></ab></div>
+    <div type="place"><opener>Dublin</opener>
+<ab>From the dean and chapter of the church of Ferns for a fine for trespass: <measure type="currency">100s</measure></ab></div>
+    <div type="place"><opener>Wexford</opener>
+<ab>From Walter Wogan, seneschal, for arrears of his account: <measure type="currency">£10</measure></ab>
+<ab>From William de Prendergast for a fine for many trespasses, by Robert de Prendergast: <measure type="currency">16s 8d</measure></ab>
+        <div type="place"><opener>Manor</opener>
+<ab>From the rent of Courtown <note type="text">Curton</note>, by Reymund Macmurth: <measure type="currency">5 marks</measure></ab></div></div>
+    <div type="place"><opener>Dublin</opener>
+<ab>From the rent of Palmerstown <note type="text"><foreign xml:lang="lat">ville Palmeri</foreign></note>, by the prior of St John outside the New Gate, Dublin: <measure type="currency">1/2 mark</measure></ab></div>
+    <div type="place"><opener>Waterford, manor</opener>
+<ab>From the rent of the Decies for Roger Russell, by John de Weyland: <measure type="currency">£8 13s 4d</measure></ab></div>
+    <div type="place"><opener>Escheatry</opener>
+<ab>From Nigel le Bruyn, escheator, for the issues of the escheatry of Clonnaghbrenan, by Willliam Falconer <note type="text">le Fauconer</note>: <measure type="currency">50s</measure></ab></div>
+<closer>Sum: <measure type="currency">£32 13s 4d</measure> <add><handShift/>proved</add></closer></div>
+<div type="day"><head type="day"><date when="1310-05-05">Tuesday <supplied>5 May 1310</supplied></date></head>
+    <div type="place"><opener>Dublin</opener>
+<ab>From Richard Costantyn, sheriff, for arrears of his account, by Reginald Bernevall: <measure type="currency">10s</measure></ab></div>
+    <div type="place"><opener>Waterford, city</opener>
+<ab>From the farm of the city of Waterford, by Eymer de Goddor: <measure type="currency">£22</measure></ab></div>
+    <div type="place"><opener>Kildare</opener>
+<ab>From Walter Ivethorn for his various debts, by Geoffrey de la Hyde for Roger de la Hyde: <measure type="currency">20s</measure></ab></div>
+    <div type="place"><opener>Dublin</opener>
+<ab>From William de Senkyl for a fine for release of visne: <measure type="currency">40d</measure></ab>
+<ab>From Roger Berde because he did not come on the day he mainperned: <measure type="currency">40d</measure></ab>
+<ab>From William Taskyn because he did not come <supplied>when</supplied> summoned: <measure type="currency">40d</measure></ab></div>
+<closer>Sum: <measure type="currency">£24</measure> <add>proved</add></closer></div>
+    <pb type="membrane" n="10 face" facs="tna_e_101_235_22_m10_recto.tif"/>
+<div type="day"><head type="day"><date when="1310-05-06"><handShift/>Wednesday, St John before the Lateran Gate <supplied>6 May 1310</supplied></date></head>
+<ab>Nothing</ab></div>
+<div type="day"><head type="day"><date when="1310-05-07">Thursday <supplied>7 May 1310</supplied></date></head>
+    <div type="place"><opener>Roscommon</opener>
+<ab>From David de Burgh for a portion <supplied>of land</supplied> which he holds in Tirmany and Le Maghry: <measure type="currency">£12</measure></ab>
+<ab>From Simon son of Richars, sheriff, because he did not return a writ nor came as ordered: <measure type="currency">1/2 mark</measure></ab>
+<ab>From Roger Clerk <note type="text"><foreign xml:lang="lat">clerico</foreign></note> for the pledge of Donatus, bishop of Elphin <note type="text"><foreign xml:lang="lat">Elfinensis</foreign></note>: <measure type="currency">40d</measure></ab></div>
+    <div type="place"><opener>Meath</opener>
+<ab>From Richard Telyng, sheriff, for the profit of the county: <measure type="currency">20s</measure></ab></div>
+    <div type="place"><opener>Dublin</opener>
+<ab>From Richard Costantin, sheriff, for arrears of his account: <measure type="currency">60s</measure></ab>
+<ab>From Robert, bishop of Ferns for a fine for trespass: <measure type="currency">100s</measure></ab></div>
+    <div type="place"><opener>Limerick</opener>
+<ab>From Henry son of Henry de Capella for a fine: <measure type="currency">5 marks</measure></ab></div>
+    <div type="place"><opener>Tipperary</opener>
+        <ab>From John son of William Crispin for a fine for trespass: <measure type="currency">20s</measure></ab></div>
+<div type="place"><opener>Kerry</opener>
+<ab>From Reginald Broun, sheriff, for the debts of various people: <measure type="currency">10 marks</measure></ab></div>
+    <div type="place"><opener>Carlow</opener>
+<ab>From Nicholas, bishop of Leighlin for the pledge of Patrick son of David Chevre, by Stephen Crispin: <measure type="currency">£8 10s 0d</measure></ab></div>
+    <div type="place"><opener>Dublin, manor</opener>
+<ab>From the arrears of the rent of thirteen acres of land in the ?tenure of Esker, which John de Clinton holds, by Robert Thurstayn: <measure type="currency">46s 8d</measure></ab></div>
+    <div type="place"><opener>Waterford, manor</opener>
+<ab>From the rent of the Decies, by Reginald Russell: <measure type="currency">£35</measure></ab></div>
+    <div type="place"><opener>Escheatry</opener>
+<ab>From Nigel le Bruyn, escheator, for arrears of his account, by Richard Ketyng and others: <measure type="currency">£10</measure></ab></div>
+    <div type="place"><opener>Tipperary</opener>
+<ab>From David son of Miles for a fine for trespass: <measure type="currency">1 mark</measure></ab></div>
+<closer>Sum: <measure type="currency">£89 6s 8d</measure> proved</closer></div>
+<div type="day"><head type="day"><date when="1310-05-08">Friday <supplied>8 May 1310</supplied></date></head>
+    <div type="place"><opener>Tipperary</opener>
+        <ab>From Miles son of Geoffrey Lowys for a fine for trespass: <measure type="currency">20s</measure></ab></div>
+<div type="place"><opener>Dublin</opener>
+<ab>From Sir Thomas de Maundeville for the issues of the lands at Naul <note type="text">Nalle</note>: <measure type="currency">62s</measure></ab></div>
+    <div type="place"><opener>Waterford, manor</opener>
+<ab>From the rent of the Decies, by Reginald Russell: <measure type="currency">£20</measure></ab></div>
+    <div type="place"><opener>Carlow</opener>
+<ab>From John de Valle for a fine for trespass, by Edward le Poer: <measure type="currency">10 marks</measure></ab>
+<ab>From John de Lynet, sheriff, for arrears of his account: <measure type="currency">£23 13s 4d</measure></ab></div>
+    <div type="place"><opener>Tipperary</opener>
+<ab>From Richard Mauclerk, Walter son of Reymund, and Simon son of Michael for a fine for the mainprise of Reymund de Knockananny <note type="text">Knocananny</note>: <measure type="currency">10s</measure></ab></div>
+    <div type="place"><opener>Dublin</opener>
+<ab>From Robert, formerly bishop of Clonfert for his various debts, by William, bishop of Ossory: <measure type="currency">48s 4d</measure></ab></div>
+<closer>Sum: <measure type="currency">£57 7s 0d</measure> proved</closer></div>
+    <div type="day"><head type="day"><date when="1310-05-09">Saturday <supplied>9 May 1310</supplied></date></head>
+<div type="place"><opener>Limerick</opener>
+<ab>From John de Athy for the debts of various people: <measure type="currency">£20</measure></ab></div>
+        <div type="place"><opener>Dublin</opener>
+<ab>From Thomas de Isham, sheriff, for arrears of his account, by Adam de Howth <note type="text">Houthe</note>: <measure type="currency">1 mark</measure></ab></div>
+        <div type="place"><opener>Roscommon</opener>
+<ab>From Simon son of Rychery, sheriff, for the debts of various people: <measure type="currency">49s 8d</measure></ab></div>
+<closer>Sum: <measure type="currency">£23 3s 0d</measure> proved</closer></div>
+<closer>Sum of weekly receipts: <measure type="currency">£226 10s 0d</measure> proved</closer></div>
+<div type="week"><div type="day"><head type="day"><date when="1310-05-11">Monday 11 May <supplied>1310</supplied></date></head>
+    <div type="place"><opener>Cork</opener>
+<ab>From John Pipe for the forfeit chattels of Robert Goldsmith <note type="text"><foreign xml:lang="lat">aurifabri</foreign></note>: <measure type="currency">10s 11d</measure></ab></div>
+    <div type="place"><opener>Dublin, manor</opener>
+<ab>From the rent of Crumlin <note type="text">Cromelyn</note>, by Simon Bole: <measure type="currency">£8</measure></ab></div>
+<closer>Sum: <measure type="currency">£8 10s 11d</measure> proved</closer></div>
+<div type="day"><head type="day"><date when="1310-05-12">Tuesday <supplied>12 May 1310</supplied></date></head>
+    <div type="place"><opener>Escheatry</opener>
+<ab>From Nigel le Brun, escheator, for the issues of the bishopric of Emly, by John Cantok: <measure type="currency">77s 2d</measure></ab></div>
+    <div type="place"><opener>Tipperary</opener>
+<ab>From Walter le Bret, sheriff, for arrears of his account: <measure type="currency">£30</measure></ab>
+<ab>From the same sheriff for the profit of the county: <measure type="currency">100s</measure></ab></div>
+    <div type="place"><opener>Cork</opener>
+<ab>From Richard de Clare, sheriff, for the debts of various people, by Cambinus Donati, receiver: <measure type="currency">£4 5s 0d</measure></ab></div>
+    <div type="place"><opener>Escheatry</opener>
+<ab>From Nigel le Brun, escheator, for the issues of the escheatry, by Richard Gernoun: <measure type="currency">32s 3d</measure></ab></div>
+    <div type="place"><opener>Dublin</opener>
+<ab>From the rent of Corkagh, by John son of Richard and William Schirlok: <measure type="currency">5s</measure></ab></div>
+<closer>Sum: <measure type="currency">£44 19s 5d</measure> proved</closer></div>
+<div type="day"><head type="day"><date when="1310-05-13">Wednesday <supplied>13 May 1310</supplied></date></head>
+    <div type="place"><opener>Dublin, city</opener>
+<ab>From the issues of the mills next to Dublin Castle, by William Miller <note type="text"><foreign xml:lang="lat">Molendinarium</foreign></note>: <measure type="currency">60s</measure></ab></div>
+    <div type="place"><opener>Escheatry</opener>
+<ab>From Nigel le Brun, escheator, for arrears of his account, by Richard Gernoun: <measure type="currency">20s</measure></ab>
+<ab>from the same escheator for the issues of the escheatry, by Henry del Rath: <measure type="currency">24s</measure></ab></div>
+    <div type="place"><opener>Kerry</opener>
+<ab>From David fitzGerald, sheriff, for arrears of his account:<measure type="currency">60s</measure></ab></div>
+    <div type="place"><opener>Cork</opener>
+<ab>From Richard de Clare, sheriff, for the debts of various people, by Cambinus Donati, receiver: <measure type="currency">£10</measure></ab></div>
+<closer>Sum: <measure type="currency">£18 4s 0d</measure> proved</closer></div>
+<div type="day"><head type="day"><date when="1310-05-14">Thursday <supplied>15 May 1310</supplied></date></head>
+    <div type="place"><opener>Roscommon</opener>
+<ab>From David de Burgh <note type="text">Burgo</note> for the portion which he holds in Trymany and le Maghry: <measure type="currency">£4</measure></ab>
+<ab>From the farm of Roscommon, by the mayor and bailiffs: <measure type="currency">£17 10s 0d</measure></ab>
+<ab>From the same farm, by the same: <measure type="currency">10s</measure></ab></div>
+    <div type="place"><opener>Escheatry</opener>
+<ab>From Nigel le Brun, escheator, for arrears of his account, by Adam le Breton: <measure type="currency">60s</measure></ab></div>
+    <div type="place"><opener>Kildare, manor</opener>
+<ab>From the arrears of the rent of Okethy, by Roger son of Adam: <measure type="currency">100s</measure></ab></div>
+<closer>Sum: <measure type="currency">£30</measure> <add>proved</add></closer></div>
+<div type="day"><head type="day"><date when="1310-05-15">Friday <supplied>15 May 1310</supplied></date></head>
+    <div type="place"><opener>Tipperary</opener>
+<ab>From the prior of St John outside the New Gate Dublin for Richard de Valle for arrears of his account: <measure type="currency">100s</measure></ab></div>
+    <div type="place"><opener>Cork</opener>
+<ab>From the farm of the city of Cork, by William de Youghal <note type="text">Yoghull</note>: <measure type="currency">£16 13s 4d</measure></ab></div>
+<closer>Sum: <measure type="currency">£21 12s 4d</measure> <add>proved</add></closer></div>
+<div type="day"><head type="day"><date when="1310-05-16">Saturday <supplied>16 May 1310</supplied></date></head>
+    <div type="place"><opener>Cork, city</opener>
+<ab>From the farm of the city of Cork, by William del Youghal <note type="text">Yoghull</note>: <measure type="currency">£10</measure></ab>
+<ab>From arrears of the farm of Fayth, by the same William: <measure type="currency">79s 6d</measure></ab>
+<ab>From the mayor and bailiffs of the city of Cork for arrears of their account, by the same William: <measure type="currency">£6 6d</measure></ab></div>
+<closer>Sum: <measure type="currency">£20</measure> <add>proved</add></closer></div>
+<closer>Sum of weekly receipts: <measure type="currency">£143 7s 8d</measure> <add>proved</add></closer></div>
+<pb type="membrane" n="11 face" facs="tna_e_101_235_22_m_11_recto.tif"/>
+<div type="week"><div type="day"><head type="day"><date when="1310-05-18"><handShift/>Monday 18 May <supplied>1310</supplied></date></head>
+    <div type="place"><opener>Dublin, city</opener>
+<ab>From the mayor and bailiff of the city of Dublin for the debts of various people: <measure type="currency">40s</measure></ab></div>
+    <div type="place"><opener>Kildare, manor</opener>
+<ab>From the rent of Leixlip <note type="text"><foreign xml:lang="lat"><add place="above the line">Saltus</add> Salmonis</foreign></note>, by Peter de Knulle and Adam Clerk <note type="text">le Clerk</note>: <measure type="currency">£6</measure></ab></div>
+    <div type="place"><opener>Dublin, manor</opener>
+<ab>From the farm of Saggart <note type="text">Tassagard</note>, by Henry Bond <note type="text">le Bonde</note>: <measure type="currency">£9</measure></ab></div>
+    <div type="place"><opener>Dublin, city</opener>
+<ab>From the farm of the city of Dublin, by Andrew de Assheburn: <measure type="currency">£20</measure></ab></div>
+    <div type="place"><opener>Limerick</opener>
+<ab>From William de Caunvyll for himself because he entered lands in Fedomer and Cathyrdonesk without the king's licence <note type="text"><foreign xml:lang="lat">eo quod sine licencia domini Regis intravit</foreign></note>: <measure type="currency">10 marks</measure></ab></div>
+    <div type="place"><opener>Tipperary</opener>
+<ab>From Adam de Marisco for a fine for trespass: <measure type="currency">26s 8d</measure></ab></div>
+<closer>Sum: <measure type="currency">£45</measure> <add>proved</add></closer></div>
+<div type="day"><head type="day"><date when="1310-05-19">Tuesday <supplied>19 May 1310</supplied></date> and <date when="1310-05-20">Wednesday <supplied>20 May 1310</supplied></date></head>
+<ab>Nothing</ab></div>
+<div type="day"><head type="day"><date when="1310-05-21">Thursday <supplied>21 May 1310</supplied></date></head>
+    <div type="place"><opener>Kilkenny</opener>
+<ab>From Gilbert de Clare, earl of Gloucester and Hereford for arrears of his account, by William de Caunton <note type="text">Caunteton</note>, seneschal: <measure type="currency">£10</measure></ab></div>
+    <div type="place"><opener>Kildare, manor</opener>
+<ab>From the issues of the mills of Leixlip <note type="text"><foreign xml:lang="lat">saltus salmonis</foreign></note>, by Simon de Dublin: <measure type="currency">60s</measure></ab></div>
+    <div type="place"><opener>Uriel</opener>
+<ab>From Vincent son of Ralph for the rent of 19 acres in ?Drumuneskyn: <measure type="currency">20s</measure></ab></div>
+<closer>Sum: <measure type="currency">£13</measure> <add>proved</add></closer></div>
+<div type="day"><head type="day"><date when="1310-05-22">Friday <supplied>22 May 1310</supplied></date></head>
+<ab>Nothing</ab></div>
+<div type="day"><head type="day"><date when="1310-05-23">Saturday <supplied>23 May 1310</supplied></date></head>
+    <div type="place"><opener>Tipperary</opener>
+<ab>From David son of Laurence son of Griffin for a fine for trespass for himself and others: <measure type="currency">10s</measure></ab></div>
+    <div type="place"><opener>Kildare, manors</opener>
+<ab>From the rent of Kilkok and Gelegrave, by Thomas Russell: <measure type="currency">£8</measure></ab>
+<ab>From the rent of Okethy, by Roger son of Adam: <measure type="currency">£9</measure></ab></div>
+    <div type="place"><opener>Dublin</opener>
+        <div type="place"><opener>City</opener>
+<ab>From the farm of the city of Dublin, by Robert Bagod: <measure type="currency">10 marks</measure></ab></div>
+<div type="place"><opener>Manor</opener>
+<ab>From the rent of Bray <note type="text">Bree</note>, by William <add>de</add> Couyntre: <measure type="currency">40s</measure></ab></div></div>
+<closer>Sum: <measure type="currency">£26 3s 4d</measure> <add>proved</add></closer></div>
+<closer>Sum of weekly receipts: <measure type="currency">£85 3s 4d</measure> <add>proved</add></closer></div>
+<closer><add place="left-hand margin"><handShift/>Monthly sum: <measure type="currency"><supplied>£</supplied>58 13s 6d</measure></add></closer></div>
+<div type="month"><div type="week">
+<div type="day"><head type="day"><date when="1310-05-25">Monday 25 May <supplied>1310</supplied></date></head>
+    <div type="place"><opener>Dublin</opener>
+<ab>From John Cristofre and Richard Moynagh for a fine for trespass: <measure type="currency">26s 8d</measure></ab>
+        <div type="place"><opener>Manor</opener>
+<ab>From the farm of Newcastle Lyons <note type="text"><foreign xml:lang="lat">novi castri de Lyouns</foreign></note>, by John Lymput: <measure type="currency">40s</measure></ab></div></div>
+    <div type="place"><opener>Limerick</opener>
+<ab>From William son of Thomas de Dondonenald for a fine for trespass: <measure type="currency">60s</measure></ab></div>
+    <div type="place"><opener>Dublin, city</opener>
+<ab>From the mayor and bailiffs of the city of the Dublin for arrears of their account, by Andrew de Assheburn: <measure type="currency">£10</measure></ab></div>
+<closer>Sum: <measure type="currency">£16 6s 8d</measure> <add>proved</add></closer></div>
+<div type="day"><head type="day"><date when="1310-05-26">Tuesday <supplied>26 May 1310</supplied></date></head>
+    <div type="place"><opener>Waterford, manor</opener>
+<ab>From the rent of Admethan, by Jordan de Exeter <note type="text">Exon</note>, seneschal: <measure type="currency">£10 6s 8d</measure></ab></div>
+    <div type="place"><opener>Cork</opener>
+<ab>From Thomas son of Philip, sheriff, for arrears of his account, by John his son: <measure type="currency">5 marks</measure></ab></div>
+<closer>Sum: <measure type="currency">£13 13s 4d</measure> <add>proved</add></closer></div>
+<div type="day"><head type="day"><date when="1310-05-27">Wednesday <supplied>27 May 1310</supplied></date></head>
+    <div type="place"><opener>Limerick, city</opener>
+<ab>From the issues of the fish-weirs of Limerick, by David, bishop of Kilaloe <note type="text">Kyldalo</note>: <measure type="currency">106s 8d</measure></ab></div>
+    <div type="place"><opener>Dublin</opener>
+<ab>From the same bishop for a fine for trespass: <measure type="currency">100s</measure></ab></div>
+<closer>Sum: <measure type="currency">£10 6s 8d</measure> <add>proved</add></closer></div>
+<div type="day"><head type="day"><date when="1310-05-28">Thursday <supplied>28 May 1310</supplied></date></head>
+<ab>Nothing</ab></div>
+<div type="day"><head type="day"><date when="1310-05-29">Friday <supplied>29 May 1310</supplied></date></head>
+    <div type="place"><opener>Dublin, manor</opener>
+<ab>From the farm of Newcastle Lyons <note type="text"><foreign xml:lang="lat">novi castri de Lyouns</foreign></note>, by the tenants of Balicolman: <measure type="currency">£4</measure></ab></div>
+    <div type="place"><opener>Drogheda on the side of Meath</opener>
+<ab>From the seneschal and bailiffs of Drogheda for arrears of their account: <measure type="currency">40s</measure></ab></div>
+    <div type="place"><opener>Tipperary</opener>
+<ab>From John Assyk, knight, and all his men except Philip Candelan for a fine for trespass: <measure type="currency">33s 4d</measure></ab></div>
+<closer>Sum: <measure type="currency">£7 13s 4d</measure> <add>proved</add></closer></div>
+<div type="day"><head type="day"><date when="1310-05-30">Saturday <supplied>30 May 1310</supplied></date></head>
+<ab>Nothing</ab></div>
+<closer>Sum of weekly receipts: <measure type="currency">£48</measure> <add><handShift/>proved</add></closer></div>
+<div type="week"><div type="day"><head type="day"><date when="1310-06-01">Monday 1 June <supplied>1310</supplied></date></head>
+    <div type="place"><opener>Limerick, city</opener>
+<ab>From the farm of the city of Limerick, by Alexander Baret: <measure type="currency">£31 13s 4d</measure></ab>
+<ab>From the mayor and bailiffs of the same city for arrears of their account: <measure type="currency">100s</measure></ab></div>
+    <div type="place"><opener>Kildare, manor</opener>
+<ab>From the rent of Leixlip <note type="text"><foreign xml:lang="lat">saltus salmonis</foreign></note>, by Thomas de Kent: <measure type="currency">£4</measure></ab></div>
+<closer>Sum: <measure type="currency">£40 13s 4d</measure> <add>proved</add></closer></div>
+<div type="day"><head type="day"><date when="1310-06-02">Tuesday <supplied>2 June 1310</supplied></date></head>
+    <div type="place"><opener>Dublin, manor</opener>
+<ab>From the rent of Newcastle Mckinegan <note type="text"><foreign xml:lang="lat">novi castri Mckynegan</foreign></note>, by Hugh Jocelin <note type="text">Goselyne</note>: <measure type="currency">100s</measure></ab></div>
+<closer>Sum: <measure type="currency">£7 12s 8d</measure> <add>proved</add></closer></div>
+<div type="day"><head type="day"><date when="1310-06-03">Wednesday <supplied>3 June 1310</supplied></date></head>
+    <div type="place"><opener>Trim</opener>
+<ab>From John son of Joscelin <note type="text">Goscelin</note> Durant for a fine to have peace: <measure type="currency">40s</measure></ab></div>
+    <div type="place"><opener>Dublin, manor</opener>
+<ab>From the rent of Esker, by Thomas Beg: <measure type="currency">60s</measure></ab></div>
+<closer>Sum: <measure type="currency">100s</measure> <add>as appears <note type="text"><foreign xml:lang="lat">patet</foreign></note></add></closer></div>
+<div type="day"><head type="day"><date when="1310-06-04">Thursday <supplied>4 June 1310</supplied></date></head>
+    <div type="place"><opener>Dublin, manor</opener>
+<ab>From the rent of Thorncastle <note type="text">Thorncastel</note>, by William le Deveneys: <measure type="currency">54s 2d</measure></ab></div>
+    <div type="place"><opener>Kildare</opener>
+<ab>From the rent of Cloghleth, by the same William: <measure type="currency">30s</measure></ab></div>
+    <div type="place"><opener>Dublin, city</opener>
+<ab>From the mayor and bailiffs of the city of Dublin for arrears of their account: <measure type="currency">£14</measure></ab>
+<ab>From the farm of the city of Dublin, by Andrew de Assheburne: <measure type="currency">£10</measure></ab></div>
+    <div type="place"><opener>Dublin</opener>
+        <div type="place"><opener>Manor</opener>
+<ab>From the arrears of the rent of Newcastle Lyons <note type="text"><foreign xml:lang="lat">novi castri de Lyouns</foreign></note>, by John Lymput: <measure type="currency">12s</measure></ab></div>
+<div type="place"><ab>From David, bishop of Killaloe <note type="text">Kyldalo</note> for a fine for trespass: <measure type="currency">26s 8d</measure></ab></div></div>
+    <div type="place"><opener>Wexford, manor</opener>
+<ab>From the rent and other issues of the lands which belonged to Roger le Bygot, by Walter Wogan: <measure type="currency">£30</measure></ab></div>
+    <div type="place"><opener><handShift/>Kildare</opener>
+<ab>From Matilda Castel for a fine for trespass: <measure type="currency">5 marks</measure></ab></div>
+    <div type="place"><opener>Dublin</opener>
+<ab>From Richard Costantin, sheriff, for an insufficient response <note type="text"><foreign xml:lang="lat">insufficienti responsione</foreign></note>: <measure type="currency">1/2 mark</measure></ab>
+<ab>From the same sheriff for the same: <measure type="currency">1/2 mark</measure></ab>
+        <pb type="membrane" n="12 face" facs="tna_e_101_235_22_m12_recto.tif"/>
+<ab>From the same sheriff for the same: <measure type="currency">1 mark</measure></ab>
+<ab>From the same sheriff for the incorrect return of writs <note type="text"><foreign xml:lang="lat">pro indebito returno breviis</foreign></note>: <measure type="currency">1/2 mark</measure></ab></div>
+    <div type="place"><opener>Limerick</opener>
+<ab>From Hugh son of Ralph and his associates for a fine for trespass: <measure type="currency">40s</measure></ab>
+<ab>From Thomas son of Rhys for a fine for trespass: <measure type="currency">1 mark</measure></ab></div>
+<closer>Sum: <measure type="currency">£69 9s 6d</measure> <add><handShift/>proved</add></closer></div>
+<closer>Sum of four day's receipts: <measure type="currency">£122 15s 6d</measure> <add>proved</add></closer></div>
+<closer><add place="added in the left-hand margin">Sum of one week and four days: <measure type="currency">£170 15s 6d</measure></add></closer></div>
+<closer>Sum of sums, total received in this Easter term: <measure type="currency">£751 9s 0d</measure> <add>proved</add></closer></div>
+<gap reason="blank" extent="14 lines"/>
+    <div type="sum">
+<div type="term"><head type="term">Receipts in <date from="1310-06-24" to="1310-07-15">Trinity term in the abovesaid year</date></head>
+<div type="month"><div type="week"><div type="day"><head type="day"><date when="1310-06-22">Monday, the morrow of the octave of Trinity, 22 June <supplied>1310</supplied></date></head>
+    <div type="place"><opener>Roscommon</opener>
+<ab>From William son of Richard de Calne for a fine for his marriage: <measure type="currency">1 mark</measure></ab></div>
+    <div type="place"><opener>Escheatry</opener>
+<ab>From Nigel le Brun, escheator, for arrears of his account, by John de Rupe: <measure type="currency">1 mark</measure></ab>
+<ab>From the same escheator for the same, by Richard Ketyng and others: <measure type="currency">40s</measure></ab></div>
+    <div type="place"><opener>Dublin, manor</opener>
+<ab>From the rent of Bray <note type="text">Bree</note>, by Stephen Aster: <measure type="currency">50s</measure></ab></div>
+    <div type="place"><opener>Kildare, manor</opener>
+<ab>From the rent of Leixlip <note type="text"><foreign xml:lang="lat">saltus salmonis</foreign></note>, by Peter de Knuyll and Adam Clerk <note type="text">le Clerk</note>: <measure type="currency">£4</measure></ab></div>
+    <div type="place"><opener>Uriel</opener>
+<ab>From Stephen Roth for a fine for trespass, by his executors: <measure type="currency">£30</measure></ab></div>
+    <div type="place"><opener>Kildare, manors</opener>
+<ab>From the rent of Okethy, by Roger son of Adam: <measure type="currency">40s</measure></ab>
+<ab>From the rent of Kylkok and ?Belegarne, by Thomas Russell: <measure type="currency">60s</measure></ab></div>
+    <div type="place"><opener>Carlow</opener>
+<ab>From John de Lynet, sheriff, for arrears of his account: <measure type="currency">£24</measure></ab></div>
+<closer>Sum: <measure type="currency">£68 16s 8d</measure> proved</closer></div>
+<div type="day"><head type="day"><date when="1310-06-23">Tuesday <supplied>23 June 1310</supplied></date></head>
+    <div type="place"><opener>Tipperary</opener>
+<ab>From Hugh Purcel of Kylslene for a fine for trespass: <measure type="currency">20s</measure></ab></div>
+    <div type="place"><opener>Uriel</opener>
+<ab>From Theobald de Verdun for his relief, by the prior of Dundalk: <measure type="currency">20 marks</measure></ab>
+<ab>From Philip Calftyn and Roesia his wife for a fine for trespass: <measure type="currency">20s</measure></ab>
+<ab>From William Chamberlain <note type="text"><foreign xml:lang="lat">Camer<supplied>ario</supplied></foreign></note> and Richard Godman for the rent of two carucates of land in Yvermongan: <measure type="currency">20s</measure></ab>
+<ab>From Walter de Dovedale, sheriff, for arrears of his account, by Baldwin le Flemeng: <measure type="currency">5 marks</measure></ab></div>
+<closer>Sum: <measure type="currency">£19 13s 4d</measure> <add>proved</add></closer></div>
+<div type="day"><head type="day"><date when="1310-06-24">Wednesday, St John the Baptist <supplied>24 June 1310</supplied></date></head>
+<ab>Nothing</ab></div>
+<div type="day"><head type="day"><date when="1310-06-25">Thursday <supplied>25 June 1310</supplied></date></head>
+    <div type="place"><opener>Connacht</opener>
+<ab>From Richard de Lyt, sheriff, for the debts of various people: <measure type="currency">£60</measure></ab>
+<ab>From Richard Blake <note type="text">le Blake</note>, sheriff, for arrears of his account, by Richard de Lyt, sheriff: <measure type="currency">£4</measure></ab>
+<ab>From the same Richard de Lyt, sheriff, for the profit of the county: <measure type="currency">£6 13s 4d</measure></ab></div>
+    <div type="place"><opener>Dublin</opener>
+<ab>From Richard, son and heir of Hugh Tyrell, for his relief for the manor of Castleknock <note type="text"><foreign xml:lang="lat">castro knok</foreign></note>: <measure xml:lang="currency">20s</measure></ab>
+        <ab>From Hugh Tyrell of Castleknock <note type="text"><foreign xml:lang="lat">castro knok</foreign></note> for arrears of the serices, for the tenants of Castleknock <note type="text"><foreign xml:lang="lat">castro knok</foreign></note>: <measure type="currency">20s</measure></ab></div>
+    <div type="place"><opener>Uriel</opener>
+<ab>From the abbot of Mellifont for his various debts: <measure type="currency">£10</measure></ab></div>
+<closer>Sum: <measure type="currency">£82 13s 4d</measure> <add>proved</add></closer></div>
+<div type="day"><head type="day"><date when="1310-06-26">Friday <supplied>26 June 1310</supplied></date></head>
+    <div type="place"><opener>Dublin</opener>
+<ab>From Nicholas de Preetz for a fine to have peace: <measure type="currency">26s 8d</measure></ab></div>
+    <div type="place"><opener>Tipperary</opener>
+<ab>From William Porter <note type="text">le Port<supplied>er</supplied></note> for a fine for trespass: <measure type="currency">40s</measure></ab>
+<ab>From Robert Smyth for a fine for trespass, by Richard de Valle: <measure type="currency">10s</measure></ab></div>
+<closer>Sum: <measure type="currency">76s 8d</measure> <add>proved</add></closer></div>
+<div type="day"><head type="day"><date when="1310-06-27">Saturday <supplied>27 June 1310</supplied></date></head>
+    <div type="place"><opener>Wexford</opener>
+<ab>From Gilbert son of Eustace de Rupe for a fine for trespass for Adam de Rupe, by George de Rupe: <measure type="currency">100s</measure></ab></div>
+    <div type="place"><opener>Dublin, city</opener>
+<ab>From the farm of the city of Dublin, by Robert de Nottingham, mayor: <measure type="currency">20 marks</measure></ab></div>
+<closer>Sum: <measure type="currency">£18 6s 8d</measure> <add>proved</add></closer></div>
+<closer>Sum of weekly receipts: <measure type="currency">£193 6s 8d</measure> <add>proved</add></closer></div>
+<div type="week"><div type="day"><head type="day"><date when="1310-06-29">Monday 29 June, SS Peter and Paul, apostles <note type="editorial">The day is incorrectly given as '30 June' as the clerk has missed out the 'i' before the last 'x'.</note></date></head>
+<ab>Nothing</ab></div>
+<div type="day"><head type="day"><date when="1310-06-30">Tuesday <supplied>30 June 1310</supplied></date></head>
+    <div type="place"><opener>Cork</opener>
+<ab>From Michael de Caneton for a fine for trespass: <measure type="currency">40s</measure></ab></div>
+    <div type="place"><opener>Carlow, manor</opener>
+<ab>From the farm of Fynnagh, by Thomas Butler <note type="text"><foreign xml:lang="french">le Botiller</foreign></note>: <measure type="currency">£16 13s 4d</measure></ab></div>
+    <div type="place"><opener>Dublin</opener>
+<ab>From Ralph Donok, Philip Millward <note type="text">le Mylleward</note> and their associates in Malahide <note type="text">Molaghyde</note> for a fine for trespass: <measure type="currency">5 marks</measure></ab></div>
+<closer>Sum: <measure type="currency">£22</measure> <add>proved</add></closer></div>
+<div type="day"><head type="day"><date when="1310-07-01">Wednesday <supplied>1 July 1310</supplied></date></head>
+<ab>Nothing</ab></div>
+<div type="day"><head type="day"><date when="1310-07-02">Thursday <supplied>2 July 1310</supplied></date></head>
+    <div type="place"><opener>Dublin, city</opener>
+<ab>From the issues of the mills near Dublin Castle, by William Miller <note type="text"><foreign xml:lang="lat">molendinarium</foreign></note>: <measure type="currency">40s</measure></ab></div>
+<closer>Sum: <measure type="currency">40s</measure> <add>as appears <note type="text"><foreign xml:lang="lat">patet</foreign></note></add></closer></div>
+<div type="day"><head type="day"><date when="1310-07-03">Friday <supplied>3 July 1310</supplied></date> and <date when="1310-07-04">Saturday <supplied>4 July 1310</supplied></date></head>
+<ab>Nothing</ab></div>
+<closer>Sum of weekly receipts: <measure type="currency">£24</measure> <add>proved</add></closer></div>
+<div type="week"><div type="day"><head type="day"><date when="1310-07-06">Monday 6 July <supplied>1310</supplied></date></head>
+    <div type="place"><opener>Roscommon</opener>
+<ab>From Richard de Burgh, earl of Ulster, for the portion which he holds in Tyrmany and le Maghery: <measure type="currency">£15 18s 10d</measure></ab></div>
+<closer>Sum: <measure type="currency">£15 18s 10d</measure> <add>as appears <note type="text"><foreign xml:lang="lat">patet</foreign></note></add></closer></div>
+<div type="day"><head type="day"><date when="1310-07-07">Tuesday, the translation of St Thomas <supplied>Becket</supplied> <supplied>7 July 1310</supplied></date></head>
+<ab>Nothing</ab></div>
+<div type="day"><head type="day"><date when="1310-07-08">Wednesday <supplied>8 July 1310</supplied></date></head>
+<pb type="membrane" n="13 face" facs="tna_e_101_235_22_m_13_recto.tif"/>
+    <div type="place"><opener>Dublin</opener>
+<ab>From Adam de Hollywood <note type="text"><foreign xml:lang="lat">sancto bosco</foreign></note>, sheriff, for arrears of his account: <measure type="currency">63s 4d</measure></ab>
+<ab>From John son of William de Rathcas because he did not come <supplied>when</supplied> summoned: <measure type="currency">1/2 mark</measure></ab></div>
+    <div type="place"><opener>Tipperary</opener>
+<ab>From Geoffrey son of Thomas Meiler, Adam his brother and others for a fine for trespass: <measure type="currency">20s</measure></ab>
+<ab>From John Beg Odufthir for a fine for trespass: <measure type="currency">1/2 mark</measure></ab>
+<ab>From Gilbert Hayward <note type="text">le Hayward</note> for a fine for trespass: <measure type="currency">1 mark</measure></ab>
+<ab>From Simon le Dyare for a fine for trespass: <measure type="currency">1 mark</measure></ab>
+<ab>From the community of the town of Buolick <note type="text">Boulek</note> for a fine for trespass: <measure type="currency">100s</measure></ab></div>
+<closer>Sum: <measure type="currency">£11 3s 4d</measure> <add>proved</add></closer></div>
+<div type="day"><head type="day"><date when="1310-07-09">Thursday <supplied>9 July 1310</supplied></date></head>
+<ab>Nothing</ab></div>
+<div type="day"><head type="day"><date when="1310-07-10">Friday <supplied>10 July 1310</supplied></date></head>
+    <div type="place"><opener>Wexford</opener>
+<ab>From Nicholas de Saunford, constable of Ferns Castle, for the escape of David Bertram, felon: <measure type="currency">40s</measure></ab>
+<ab>From the same Nicholas, constable, for the escape of Thomas Ofottern: <measure type="currency">40s</measure></ab>
+<ab>From Walter Wogan, seneschal, for arrears of his account, by David Borard: <measure type="currency">40s</measure></ab></div>
+    <div type="place"><opener>Escheatry</opener>
+<ab>From Nigel Brun <note type="text">le Brun</note>, escheator, for the issues of the escheatry, by Adam le Bretoun: <measure type="currency">60s</measure></ab></div>
+    <div type="place"><opener>Tipperary</opener>
+<ab>From Walter le Bret, sheriff, for arrears of his account, by Edmund Husee: <measure type="currency">1 mark</measure></ab></div>
+<closer>Sum: <measure type="currency">£9 13s 4d</measure> <add>proved</add></closer></div>
+<div type="day"><head type="day"><date when="1310-07-11">Saturday <supplied>11 July 1310</supplied></date></head>
+    <div type="place"><opener>Uriel</opener>
+<ab>From Walter, archbishop of Armagh, for his various debts: <measure type="currency">100s</measure></ab></div>
+    <div type="place"><opener>Tipperary</opener>
+<ab>From Walter de Mulcote and John de Mulcote for a fine to have peace: <measure type="currency">1 mark</measure></ab>
+<ab>From William Fitzwilliam, Ivo his son and the other sons of the same William for a fine for trespass: <measure type="currency">40s</measure></ab></div>
+<closer>Sum: <measure type="currency">£7 13s 4d</measure> <add>proved</add></closer></div>
+<closer>Sum of weekly receipts: <measure type="currency">£44 8s 10d</measure> <add>proved</add></closer></div>
+<div type="week">
+<div type="day"><head type="day"><date when="1310-07-13">Monday 13 July <supplied>1310</supplied></date></head>
+    <div type="place"><opener>Dublin</opener>
+        <div type="place"><opener>Manor</opener>
+<ab>From the rent of Crumlin <note type="text">Cromelyn</note>, by Simon le Bole: <measure type="currency">£4</measure></ab></div><div type="place">
+<ab>From the community of the villata of Kilroot <!-- Note this modern place is in Co. Antrim, but is called Kylroth in the 14th century --><note type="text">Kylroth</note> for a fine for trespass: <measure type="currency">10 marks</measure></ab></div></div>
+<closer>Sum: <measure type="currency">£10 13s 4d</measure> <add>proved</add></closer></div>
+<div type="day"><head type="day"><date when="1310-07-14">Tuesday <supplied>14 July 1310</supplied></date></head>
+    <div type="place"><opener>Carlow</opener>
+<ab>From the prise of the town of Carlow, by Geoffrey de Cave: <measure type="currency">40s</measure></ab></div>
+<closer>Sum: <measure type="currency">40s</measure> <add>as appears <note type="text"><foreign xml:lang="lat">patet</foreign></note></add></closer></div>
+<div type="day"><head type="day"><date when="1310-07-15">Wednesday <supplied>15 July 1310</supplied></date></head>
+    <div type="place"><opener>Dublin</opener>
+<ab>From Henry de Belinge for a fine for trespass: <measure type="currency">20s</measure></ab></div>
+    <div type="place"><opener>Uriel</opener>
+<ab>From the abbot of Mellifont because he did not come <supplied>when</supplied> attached: <measure type="currency">1 mark</measure></ab>
+<ab>From Thomas Oliver and John White <note type="text"><foreign xml:lang="lat">albo</foreign></note> for the pledge of the same: <measure type="currency">1 mark</measure></ab>
+<ab>From the abbot of Mellifont to have licence to make concord: <measure type="currency">1/2 mark</measure></ab></div>
+<closer>Sum: <measure type="currency">53s 4d</measure> <add>proved</add></closer></div>
+<div type="day"><head type="day"><date when="1310-07-16">Thursday <supplied>16 July</supplied></date>, <date when="1310-07-17">Friday <supplied>17 July</supplied></date> and <date when="1310-07-18">Saturday <supplied>18 July 1310</supplied></date></head>
+<ab>Nothing</ab></div>
+<closer>Sum of weekly receipts: <measure type="currency">£15 6s 8d</measure> <add>proved</add></closer></div>
+<closer><add place="left-hand margin"><handShift/>Monthly sum: <measure type="currency">£277 2s 2d</measure></add></closer></div>
+<div type="month"><div type="week">
+<div type="day"><head type="day"><date when="1310-07-20">Monday 20 July, St Margaret the virgin</date>, <date when="1310-07-21">Tuesday <supplied>21 July</supplied></date>, <date when="1310-07-22">Wednesday, St Mary Magdalene <supplied>22 July</supplied></date>, <date when="1310-07-23">Thursday <supplied>23 July 1310</supplied></date></head>
+<ab>Nothing</ab></div>
+<div type="day"><head type="day"><date when="1310-07-24">Friday <supplied>24 July 1310</supplied></date></head>
+    <div type="place"><opener>Uriel</opener>
+<ab>From Roger Roth, sheriff, for arrears of his account: <measure type="currency">5 marks</measure></ab></div>
+    <div type="place"><opener>Escheatry</opener>
+<ab>From Nigel le Brun, escheator, for arrears of his account, by Nicholas Gyfford: <measure type="currency">8s 2d</measure></ab></div>
+    <div type="place"><opener>Waterford, <add>city</add>, prise of wine</opener>
+<ab>From the prise of wine, by Sernag' Copal and Jordan de Bristol: <measure type="currency">66s 2 1/4d</measure></ab></div>
+<closer>Sum: <measure type="currency">£7 0s 12 1/4d</measure> <add>proved</add></closer></div>
+<div type="day"><head type="day"><date when="1310-07-25">Saturday, St James the apostle <supplied>25 July 1310</supplied></date></head>
+<ab>Nothing</ab></div>
+<closer>Sum of weekly receipts: <measure type="currency">£7 0s 12 1/4d</measure></closer></div>
+<div type="week">
+<div type="day"><head type="day"><date when="1310-07-27">Monday 27 July</date>, <date when="1310-07-28">Tuesday <supplied>28 July</supplied></date>, <date when="1310-07-29">Wednesday <supplied>29 July</supplied></date> and <date when="1310-07-30">Thursday <supplied>30 July 1310</supplied></date></head>
+<ab>Nothing</ab></div>
+<div type="day"><head type="day"><date when="1310-07-31">Friday <supplied>31 July 1310</supplied></date></head>
+    <div type="place"><opener>Carlow, manors</opener>
+<ab>From Adam Bretoun, receiver, for the rent of the burgh of Carlow, by Richard Cros, reeve <note type="text"><foreign xml:lang="lat">praepositum</foreign></note>: <measure type="currency">70s</measure></ab>
+        <ab>From the same receiver for the same, by Thomas Wyth, reeve <note type="text"><foreign xml:lang="lat">praepositum</foreign></note>: <measure type="currency">40s</measure></ab>
+        <ab>From the same receiver for the same, by Richard Tanner <note type="text">le Tanner</note>, reeve <note type="text"><foreign xml:lang="lat">praepositum</foreign></note>: <measure type="currency">3s 8 1/4d</measure></ab>
+        <ab>From the same receiver for the same, by Thomas le Bret, reeve <note type="text"><foreign xml:lang="lat">praepositum</foreign></note>: <measure type="currency">20s</measure></ab>
+        <ab>From the same receiver for the same, by Thomas Schirlok, reeve <note type="text"><foreign xml:lang="lat">praepositum</foreign></note>: <measure type="currency">10s</measure></ab>
+<ab>From the same receiver for the rent of Fothered, by Nicholas son of Robert: <measure type="currency">12s</measure></ab>
+<ab>From the same receiver for the same rent, by David le Fevre: <measure type="currency">40d</measure></ab>
+<ab>From the same receiver for the same rent, by John Godfrey: <measure type="currency">7s</measure></ab>
+<ab>From the same receiver for the same rent, by Richard son of David: <measure type="currency">6s</measure></ab></div>
+<closer>Sum: <measure type="currency">£6 17s 3 1/2d</measure> <add>proved</add></closer></div>
+<div type="day"><head type="day"><date when="1310-08-01">Saturday, St Peter ad Vincula <supplied>1 August 1310</supplied></date></head>
+<ab>Nothing</ab></div>
+<closer>Sum of weekly receipts: <measure type="currency">£6 17s 3 1/2d</measure></closer></div>
+<closer><add place="left-hand margin"><handShift/>Sum of two weeks: <measure type="currency">£13 18s 3 3/4d</measure></add></closer></div>
+<closer><handShift/>Sum of sums, total receipts in this Trinity term: <measure type="currency">£291 0s 5 3/4d</measure> proved</closer></div>
+<gap reason="blank" extent="11 lines"/>
+<pb type="membrane" n="14 face" facs="tna_e_101_235_22_m14_recto.tif"/>
+<div type="term"><head type="term">Receipts between the terms <note type="text"><foreign xml:lang="lat">in medio tempore</foreign></note></head>
+    <div type="place"><opener>Limerick, city</opener>
+<ab>From the mayor and baillifs of the city of Limerick for the debts of various people, by Alexander Baret: <measure type="currency">£20</measure></ab>
+<ab>From Robert de Trim, coroner, for a fine for trespass: <measure type="currency">100s</measure></ab></div>
+    <div type="place"><opener>Drogheda on the side of Uriel</opener>
+<ab>From Thomas de Ireland for unjust detention, by the pledge of Michael de Trim and Roger de Slane: <measure type="currency">40d</measure></ab>
+<ab>From Peter le Rede for a fine for trespass, by the pledge of Stephen Roth: <measure type="currency">20s</measure></ab>
+<ab>From Peter Payne for a fine for trespass, by the pledge of Walter Cook <note type="text">coci</note> and Henry Glover: <measure type="currency">1/2 mark</measure></ab>
+<ab>From John Aylbright for the chattels of Robert Cardigan, fugitive, by the pledge of Thomas Aylbright and Robert Bryan: <measure type="currency">8s</measure></ab>
+<ab>From the same John for the forfeit chattels of Maurice de Chelburn, by the pledge of the aforesaid Thomas and Robert: <measure type="currency">106s 3d</measure></ab>
+<ab>From Henry de Bristol for disseisin done by force and arms <note type="text"><foreign xml:lang="lat">disseisin vi et armis facta</foreign></note>, by the pledge of Michael de Trim and Geoffrey Johan: <measure type="currency">20s</measure></ab>
+<ab>From Thomas Page for a fine for trespass, by the pledge of William Page and Roger Broun: <measure type="currency">30s</measure></ab>
+<ab>From John Cartmel junior for a fine for trespass, by the pledge of Michael de Trim and Henry Earl: <measure type="currency">100s</measure></ab>
+        <div type="place"><opener>Uriel</opener>
+<ab>From Richard Gernoun, sheriff, for the debts of various people, by Hugh de Clinton: <measure type="currency">60s</measure></ab>
+<ab>From Geoffrey de Alueton for a fine for trespass, by the same Hugh: <measure type="currency">40s</measure></ab>
+<ab>From Henry de Courcy for a fine for trespass: <measure type="currency">40s</measure></ab>
+<ab>From Richard Bover for the same: <measure type="currency">40s</measure></ab>
+<ab>From Richard Howth <note type="text">Houethe</note> for the same: <measure type="currency">40s</measure></ab>
+<ab>From Roger Port for the same: <measure type="currency">20s</measure></ab>
+<ab>From John Noble for the same: <measure type="currency">1/2 mark</measure></ab></div>
+        <div type="place"><opener>Trim</opener>
+<ab>From John son of Joscelin <note type="text">Goscelin</note> Durante for a fine to have peace: <measure type="currency">20s</measure></ab></div>
+        <div type="place"><opener>Meath</opener>
+<ab>From Richard Dardiz, sheriff, for the debts of various people, by Nicholas de Cusak, receiver: <measure type="currency">£19 13s 1d</measure></ab></div>
+        <div type="place"><opener>Kildare</opener>
+<ab>From the rent of Okethy, by Roger son of Adam: <measure type="currency">£6 10s</measure></ab>
+<ab>From Roger son of Adam and Roger le Waleys for arrears of their account: <measure type="currency">40s</measure></ab>
+<ab>From Carhyn Mclyn and John Lessebagh for arrears of their account: <measure type="currency">60s</measure></ab></div>
+        <div type="place"><opener>Drogheda on the side of Meath</opener>
+<ab>From Thomas de Dundalk for all trespasses for which he has been convicted <note type="text"><foreign xml:lang="lat">unde convictus fuit</foreign></note>: <measure type="currency">20s</measure></ab>
+<ab>From the same Thomas to have the king's charter for a certain plot <note type="text"><foreign xml:lang="lat">platea</foreign></note> of land in Drogheda, by the pledge of Walter de Mountgomery: <measure type="currency">10s</measure></ab></div>
+        <div type="place"><opener>Dublin, manor</opener>
+<ab>From the rent of Esker, by Thomas Beg: <measure type="currency">70s</measure></ab></div>
+        <div type="place"><opener>Drogheda on the side of Uriel</opener>
+<ab>From William de Galway <note type="text">Galewey</note> for a fine for trespass, by the pledge of Stephen Roth of Drogheda: <measure type="currency">1/2 mark</measure></ab>
+<ab>From Stephen Roth for his many amercements for himself and his pledges, by the pledge of William Crouche senior and William Crouche junior: <measure type="currency">1 mark</measure></ab></div>
+        <div type="place"><opener>Dublin, manors</opener>
+<ab>From the farm of Newcastle Lyons <note type="text"><foreign xml:lang="lat">novi castri de Lyouns</foreign></note>, by Peter son of Thomas: <measure type="currency">£9</measure></ab>
+<ab>From the farm of Saggart <note type="text">Tassagard</note>, by Henry Bond <note type="text">le Bonde</note>: <measure type="currency">£12</measure></ab>
+<ab>From the arrears of the rent of Crumlin <note type="text">Cromelyn</note>, by John Coleman: <measure type="currency">20s</measure></ab>
+<ab>From the rent of Crumlin <note type="text">Cromelyn</note>, by Simon Bole: <measure type="currency">101s</measure></ab></div>
+</div>
+    <div type="place"><opener>Kildare, manor</opener>
+<ab>From the rent of Leixlip <note type="text"><foreign xml:lang="lat">saltus salmonis</foreign></note>, by Adam Clerk <note type="text">le Clerk</note> and Peter de Knulle: <measure type="currency">£7</measure></ab></div>
+    <div type="place"><opener>Drogheda on the side of Meath</opener>
+<ab>From the seneschal and bailiffs of Drogheda, by Robert Clerk <note type="text"><foreign xml:lang="lat">clericum</foreign></note>: <measure type="currency">60s</measure></ab></div>
+    <div type="place"><opener>Dublin, manor</opener>
+<ab>From the farm of Newcastle Lyons <note type="text"><foreign xml:lang="lat">novi castri de Lyouns</foreign></note>, by the tenants of Balicolman: <measure type="currency">60s</measure></ab></div>
+    <div type="place"><opener>Kildare, manors</opener>
+<ab>From Adam Palmer <note type="text">le Palmer</note> for arrears of his account: <measure type="currency">23d</measure></ab>
+<ab>From the rent of Oughterard <note type="text">Ughterard</note>, by Walter Jordan: <measure type="currency">60s</measure></ab>
+<ab>From the arrears of the same rent, by Thomas Alewyn and Walter Reeve <note type="text">le Reve</note>: <measure type="currency">10s</measure></ab></div>
+    <div type="place"><opener>Dublin</opener>
+<ab>From ?Sectator, bishop of Old Leighlin for a false indictment: <measure type="currency">100s</measure></ab></div>
+    <div type="place"><opener>Kildare, manors</opener>
+<ab>From the rent of Leixlip <note type="text"><foreign xml:lang="lat">saltus salmonis</foreign></note>, by Adam Clerk <note type="text">le Clerk</note> and Peter <del>de</del> Knulle: <measure type="currency">60s</measure></ab>
+<ab>From the rent of Oughterard <note type="text">Ughterard</note>, by William de Lancaster: <measure type="currency">40s</measure></ab></div>
+    <div type="place"><opener>Dublin</opener>
+<ab>From Thomas de Rathlawe, sheriff, for the debts of various people, by John de Hereford, receiver: <measure type="currency">103s 8d</measure></ab>
+        <div type="place"><opener>Manor</opener>
+<ab>From the rent of Esker, by Thomas Beg: <measure type="currency">6s</measure></ab></div></div>
+<closer>Sum: <measure type="currency"><handShift/>£149 6s 7d</measure> <add><handShift/>proved</add></closer></div>
+<closer><handShift/>Sum of receipts in this Trinity term with those between the terms: <measure type="currency">£440 7s 03/4d</measure> <add>proved</add></closer></div>
+<closer>Sum of sums, total receipts in the year: <measure type="currency">£2,586 6s 3d</measure> <add>proved</add></closer></div>
+        <gap reason="blank" extent="0.5 membrane"/>
+        <pb type="membrane" n="1 dorse" facs="tna_e_101_235_22_m1_verso.tif"/>
+<note type="editorial">This membrane is blank other than a nineteenth-century title on the wrapper.</note>
+        <pb type="membrane" n="2 dorse" facs="tna_e_101_235_22_m2_verso.tif"/>
+<note type="editorial">This membrane is blank.</note>
+        <pb type="membrane" n="3 dorse" facs="tna_e_101_235_22_m3_verso.tif"/>
+        <note type="editorial">This membrane is blank.</note>
+        <pb type="membrane" n="4 dorse" facs="tna_e_101_235_22_m4_verso.tif"/>
+        <note type="editorial">This membrane is blank.</note>
+        <pb type="membrane" n="5 dorse" facs="tna_e_101_235_22_m5_verso.tif"/>
+        <note type="editorial">This membrane is blank.</note>
+        <pb type="membrane" n="6 dorse" facs="tna_e_101_235_22_m6_verso.tif"/>
+        <note type="editorial">This membrane is blank.</note>
+        <pb type="membrane" n="7 dorse" facs="tna_e_101_235_22_m7_verso.tif"/>
+        <note type="editorial">This membrane is blank.</note>
+        <pb type="membrane" n="8 dorse" facs="tna_e_101_235_22_m8_verso.tif"/>
+        <note type="editorial">This membrane is blank.</note>
+        <pb type="membrane" n="9 dorse" facs="tna_e_101_235_22_m9_verso.tif"/>
+        <note type="editorial">This membrane is blank.</note>
+        <pb type="membrane" n="10 dorse" facs="tna_e_101_235_22_m10_verso.tif"/>
+        <note type="editorial">This membrane is blank.</note>
+        <pb type="membrane" n="11 dorse" facs="tna_e_101_235_22_m11_verso.tif"/>
+        <note type="editorial">This membrane is blank.</note>
+        <pb type="membrane" n="12 dorse" facs="tna_e_101_235_22_m12_verso.tif"/>
+        <note type="editorial">This membrane is blank.</note>
+        <pb type="membrane" n="13 dorse" facs="tna_e_101_235_22_m13_verso.tif"/>
+        <note type="editorial">This membrane is blank.</note>
+    </body>
+    </text>
+</TEI>
